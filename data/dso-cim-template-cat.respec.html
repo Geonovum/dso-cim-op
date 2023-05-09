@@ -1,0 +1,597 @@
+
+<!DOCTYPE HTML><section id="cat" class="normative">
+   <h2>Gegevensdefinitie</h2>
+   <!--MIMCM-dso-cim-ex-1.0-0-20230213-20230509-082101 imvertor Nightly-build.4-->
+   <section id="EAID_89551FFA_710C_4b9e_B79F_4F6C161B653A">
+      <h3>   CIM-EX -overzicht</h3>
+      <div class="imageinfo overview"><img src="data/Images/EAID_89551FFA_710C_4b9e_B79F_4F6C161B653A.png" usemap="#imagemap-EAID_89551FFA_710C_4b9e_B79F_4F6C161B653A" alt="Diagram &#xA;                        &#xA;                     "><map name="imagemap-EAID_89551FFA_710C_4b9e_B79F_4F6C161B653A"><area shape="rect" alt="Ambtsgebied" coords="701,14,856,123" href="#graph_EAID_E7980A9C_6FCC_4f10_B727_FE8C4BFE2266"><area shape="rect" alt="Bestuursorgaan" coords="525,242,738,351" href="#graph_EAID_BD619C3D_D065_44ec_AA99_361D9998C091"><area shape="rect" alt="Overheidsorganisatie" coords="373,14,551,123" href="#graph_EAID_7B6F1FAE_F0CF_4644_B5B0_78D69A837700"><area shape="rect" alt="Bevoegd gezag" coords="305,242,513,351" href="#graph_EAID_501AD29E_B98E_41b6_ADA1_FD6EA1E4353B"><area shape="rect" alt="Behandeldienst" coords="21,242,157,339" href="#graph_EAID_0CA16E5E_6CD1_420a_A761_5F65F97450B9"><area shape="rect" alt="Organisatie" coords="14,14,205,123" href="#graph_EAID_41893706_0443_4e0f_B3C9_97F2C709B870"></map><p><b>CIM-EX -overzicht</b></p>
+      </div>
+   </section>
+   <section id="">
+      <h3>Objecttypen   </h3>
+      <a class="anchor" id="graph_EAID_0CA16E5E_6CD1_420a_A761_5F65F97450B9"></a><a class="anchor" id="global_class_CIMEX_Behandeldienst"></a><section id="global_class_CIMEX_Behandeldienst">
+         <h4>   Behandeldienst</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Behandeldienst</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Een externe partij die namens een bevoegd gezag aanvragen behandelt, zoals een omgevingsdienst.</p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_CIMEX_BevoegdGezag">Bevoegd gezag</a>
+                     
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_CIMEX_BevoegdGezag_besteedtUitAan">besteedt uit aan: besteedt uit aan</a>
+                     
+                     Behandeldienst
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Behandeldienst
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_CIMEX_Organisatie">Organisatie</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_41893706_0443_4e0f_B3C9_97F2C709B870"></a><a class="anchor" id="global_class_CIMEX_Organisatie"></a><section id="global_class_CIMEX_Organisatie">
+         <h4>   Organisatie</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Organisatie</td>
+               </tr>
+               <tr>
+                  <th>Unieke aanduiding</th>
+                  <td>OIN</td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_CIMEX_Organisatie_oIN">OIN</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_501AD29E_B98E_41b6_ADA1_FD6EA1E4353B"></a><a class="anchor" id="global_class_CIMEX_BevoegdGezag"></a><section id="global_class_CIMEX_BevoegdGezag">
+         <h4>   Bevoegd gezag</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bevoegd gezag</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Het orgaan dat een verzoek beoordeelt en een besluit daarover neemt. In het kader
+                        van de Omgevingswet worden hiermee het Rijk, provincies, waterschappen en gemeenten
+                        bedoeld.</p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Unieke aanduiding</th>
+                  <td>bg-code</td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_CIMEX_BevoegdGezag_bgCode">bg-code</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Bevoegd gezag
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_CIMEX_BevoegdGezag_besteedtUitAan">besteedt uit aan: besteedt uit aan</a>
+                     
+                     
+                     <a class="link" href="#global_class_CIMEX_Behandeldienst">Behandeldienst</a>
+                     
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Bevoegd gezag
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_CIMEX_Overheidsorganisatie">Overheidsorganisatie</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_7B6F1FAE_F0CF_4644_B5B0_78D69A837700"></a><a class="anchor" id="global_class_CIMEX_Overheidsorganisatie"></a><section id="global_class_CIMEX_Overheidsorganisatie">
+         <h4>   Overheidsorganisatie</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Overheidsorganisatie</td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Overheidsorganisatie
+                     [ 0 .. 1 ]
+                     
+                     <a class="link" href="#detail_association_CIMEX_Overheidsorganisatie_heeft">heeft: heeft</a>
+                     
+                     
+                     <a class="link" href="#global_class_CIMEX_Ambtsgebied">Ambtsgebied</a>
+                     
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Overheidsorganisatie
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_CIMEX_Organisatie">Organisatie</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_BD619C3D_D065_44ec_AA99_361D9998C091"></a><a class="anchor" id="global_class_CIMEX_Bestuursorgaan"></a><section id="global_class_CIMEX_Bestuursorgaan">
+         <h4>   Bestuursorgaan</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bestuursorgaan</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Het orgaan dat de juridische regels opstelt, de activiteiten en toepasbare regels
+                        aanlevert en de activiteiten toepasbaar maakt. In het kader van de Omgevingswet worden
+                        hiermee het Rijk, provincies, waterschappen en gemeenten bedoeld.</p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_CIMEX_Bestuursorgaan_bestuurslaag">bestuurslaag</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="external-link" href="https://geonovum.github.io/dso-cim-tr/#Bestuurslaag">Bestuurslaag</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Bestuursorgaan
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_CIMEX_Overheidsorganisatie">Overheidsorganisatie</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_E7980A9C_6FCC_4f10_B727_FE8C4BFE2266"></a><a class="anchor" id="global_class_CIMEX_Ambtsgebied"></a><section id="global_class_CIMEX_Ambtsgebied">
+         <h4>   Ambtsgebied</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Ambtsgebied</td>
+               </tr>
+               <tr>
+                  <th>Indicatie abstract object</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_CIMEX_Overheidsorganisatie">Overheidsorganisatie</a>
+                     
+                     [ 0 .. 1 ]
+                     
+                     <a class="link" href="#detail_association_CIMEX_Overheidsorganisatie_heeft">heeft: heeft</a>
+                     
+                     Ambtsgebied
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      </section>
+   <section id="">
+      <h3>Attribuut- en relatiesoort details  </h3>
+      
+      <section id="">
+         <h4>Objecttype details  </h4>
+         <a class="anchor" id="detail_class_CIMEX_Organisatie"></a><section id="detail_class_CIMEX_Organisatie">
+            <h5>   Organisatie</h5>
+            <a class="anchor" id="detail_attribute_CIMEX_Organisatie_oIN"></a><section id="detail_attribute_CIMEX_Organisatie_oIN">
+               <h6>Attribuutsoort details  <a href="#global_class_CIMEX_Organisatie">Organisatie</a> OIN</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>OIN</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie identificerend</th>
+                        <td>Ja</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_CIMEX_BevoegdGezag"></a><section id="detail_class_CIMEX_BevoegdGezag">
+            <h5>   Bevoegd gezag</h5>
+            <a class="anchor" id="detail_attribute_CIMEX_BevoegdGezag_bgCode"></a><section id="detail_attribute_CIMEX_BevoegdGezag_bgCode">
+               <h6>Attribuutsoort details  <a href="#global_class_CIMEX_BevoegdGezag">Bevoegd gezag</a> bg-code</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>bg-code</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>
+                           De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie classificerend</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie identificerend</th>
+                        <td>Ja</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_CIMEX_BevoegdGezag_besteedtUitAan"></a><section id="detail_association_CIMEX_BevoegdGezag_besteedtUitAan">
+               <h6>Relatiesoort details  <a href="#global_class_CIMEX_BevoegdGezag">Bevoegd gezag</a> besteedt uit aan</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>besteedt uit aan</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_CIMEX_Behandeldienst">Behandeldienst</a>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. *</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_CIMEX_Overheidsorganisatie"></a><section id="detail_class_CIMEX_Overheidsorganisatie">
+            <h5>   Overheidsorganisatie</h5>
+            <a class="anchor" id="detail_association_CIMEX_Overheidsorganisatie_heeft"></a><section id="detail_association_CIMEX_Overheidsorganisatie_heeft">
+               <h6>Relatiesoort details  <a href="#global_class_CIMEX_Overheidsorganisatie">Overheidsorganisatie</a> heeft</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>heeft</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_CIMEX_Ambtsgebied">Ambtsgebied</a>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. *</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_CIMEX_Bestuursorgaan"></a><section id="detail_class_CIMEX_Bestuursorgaan">
+            <h5>   Bestuursorgaan</h5>
+            <a class="anchor" id="detail_attribute_CIMEX_Bestuursorgaan_bestuurslaag"></a><section id="detail_attribute_CIMEX_Bestuursorgaan_bestuurslaag">
+               <h6>Attribuutsoort details  <a href="#global_class_CIMEX_Bestuursorgaan">Bestuursorgaan</a> bestuurslaag</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>bestuurslaag</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>
+                           <a class="external-link" href="https://geonovum.github.io/dso-cim-tr/#Bestuurslaag">Bestuurslaag</a>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie classificerend</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie identificerend</th>
+                        <td>Nee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         
+         </section>
+      
+      
+      
+      
+      
+      </section>
+</section>
