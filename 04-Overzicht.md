@@ -1,24 +1,27 @@
-# Overzicht
-
+Overzicht
+---------
 
 **Dit hoofdstuk beschrijft kenmerken van deze Dataspecificatie.**
 
-## Naam en Acroniemen
+Naam en Acroniemen
+------------------
 
+CIMOP-dso: Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO.
 
-Informatiemodel voor het Conceptuele Informatiemodel Officiële Publicaties binnen de context van het DSO: CIMOP-dso.
-
-## Informele beschrijving
+Informele beschrijving
+----------------------
 
 ### Definitie
 
 Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIMOP-dso).
 
-Officiële Publicatie: De bekendmaking in een Officieel publicatieblad. (Bron STOP).
+**STOP**: Standaard Officiële Publicaties
 
-Publicatieblad: Een van de bekendmakingsbladen waarin de officiële publicaties bekend gemaakt worden. (Bron STOP).
+**Officiële Publicatie**: De bekendmaking in een Officieel publicatieblad. (Bron STOP).
 
-DSO: Digitaal Stelsel Omgevingswet
+**Publicatieblad**: Een van de bekendmakingsbladen waarin de officiële publicaties bekend gemaakt worden. (Bron STOP).
+
+**DSO**: Digitaal Stelsel Omgevingswet
 
 CIMOP bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
 
@@ -39,7 +42,7 @@ De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van offic
 
 
 <figure id="Figuur_1">
-<img src="media/LVBB-architectuur.png" alt="">
+<img src="docs/media/LVBB-architectuur.png" alt="">
 <figcaption>Context applicatiecluster Landelijke voorziening bekendmaken en beschikbaarstellen (LVBB) (bron: OGAS)</figcaption>
 </figure>
 
@@ -49,7 +52,7 @@ Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnform
 
 
 <figure id="Figuur_2">
-<img src="media/OZON-architectuur.png" alt="">
+<img src="docs/media/OZON-architectuur.png" alt="">
 <figcaption>Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: OGAS)</figcaption>
 </figure>
 
@@ -81,10 +84,14 @@ Normatieve referenties
 
 Verwijder referenties die niet van toepassing zijn of vul referenties aan.
 
-- Basisgeometrie
-- Conceptueel Informatiemodel Omgevingswet (CIMOW)
-- Informatiemodel Omgevingswet (IMOW)
-- Standaard Officiële Publicaties (STOP)
+-	Basisgeometrie
+
+-   Conceptueel Informatiemodel Omgevingswet (CIMOW)
+
+- 	Informatiemodel Omgevingswet (IMOW)
+
+-   Standaard Officiële Publicaties (STOP)
+
 
 
 Termen en definities
@@ -119,14 +126,12 @@ Symbolen en afkortingen
 Lijst van afkortingen en acroniemen die worden gehanteerd in deze
 dataspecificatie.
 
-**CIMOW** Conceptueel Informatiemodel Omgevingswet
+**CIMOW**: Conceptueel Informatiemodel Omgevingswet
 
-**IMOW** Informatiemodel Omgevingswet
+**IMOW**: Informatiemodel Omgevingswet
 
-**LVBB** Landelijke Voorziening Bekendmaken en Beschikbaarstellen
+**LVBB**: Landelijke Voorziening Bekendmaken en Beschikbaarstellen
 
-**Ozon** Objectgerichte Ontsluiting Omgevingsdocumenten
+**Ozon**: Objectgerichte Ontsluiting Omgevingsdocumenten
 
-**STOP** Standaard Officiële Publicaties
-
-
+**STOP**: Standaard Officiële Publicaties

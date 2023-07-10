@@ -4,6 +4,10 @@ Bibliografie
 **Dit hoofdstuk beschrijft relevante documenten die betrekking hebben op deze
 dataspecificatie.**
 
+<aside class="note">
+TODO
+</aside>
+
 *Verwijder onderdelen die niet van toepassing zijn uit onderstaande lijst*
 
 -   [DS-D2.3] INSPIRE DS-D2.3, Definition of Annex Themes and Scope, v3.0,
