@@ -78,18 +78,23 @@ Vul lijst aan. Kan zijn vanuit bevraging, viewer, consistentie, validatie enz
 - ...
 
 
-## Normatieve referenties
+Normatieve referenties
+----------------------
 
 Verwijder referenties die niet van toepassing zijn of vul referenties aan.
 
- - Basisgeometrie
- - Conceptueel Informatiemodel Omgevingswet (CIMOW)
- - Informatiemodel Omgevingswet (IMOW)
- - Standaard Officiële Publicaties (STOP)
+-	Basisgeometrie
+
+-   Conceptueel Informatiemodel Omgevingswet (CIMOW)
+
+- 	Informatiemodel Omgevingswet (IMOW)
+
+-   Standaard Officiële Publicaties (STOP)
 
 
 
-## Termen en definities
+Termen en definities
+--------------------
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
@@ -97,6 +102,15 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 Nog invullen
 </aside>
 
+(\<volgnummer\>) \<Term\>
+
+\<definitie\>
+
+OPMERKING \<opmerking\> (verwijderen indien niet van toepassing)
+
+VOORBEELD \<voorbeeld\> (verwijderen indien niet van toepassing)
+
+Bijvoorbeeld:
 
 (13) Geo-informatie
 
@@ -105,7 +119,8 @@ van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 OPMERKING Geo-informatie is synoniem aan geografische informatie
 
-## Symbolen en afkortingen
+Symbolen en afkortingen
+-----------------------
 
 Lijst van afkortingen en acroniemen die worden gehanteerd in deze
 dataspecificatie.
