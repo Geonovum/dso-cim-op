@@ -41,7 +41,7 @@ De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van offic
 
 
 <figure id="Figuur_1">
-<img src="docs/media/LVBB-architectuur.png" alt="">
+<img src="media/LVBB-architectuur.png" alt="">
 <figcaption>Context applicatiecluster Landelijke voorziening bekendmaken en beschikbaarstellen (LVBB) (bron: OGAS)</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnform
 
 
 <figure id="Figuur_2">
-<img src="docs/media/OZON-architectuur.png" alt="">
+<img src="media/OZON-architectuur.png" alt="">
 <figcaption>Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: OGAS)</figcaption>
 </figure>
 
