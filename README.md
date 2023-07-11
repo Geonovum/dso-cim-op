@@ -2,6 +2,8 @@
 
 Dit is het readme bestand van het GIT repository waarin het CIM-ORG wordt beheerd. Dit is één van de conceptuele informatiemodellen van het [DSO](https://aandeslagmetdeomgevingswet.nl/implementatie/digitaal-stelsel/).
 
+[Link naar werkversie CIMOP-dso](https://geonovum.github.io/dso-cim-op/)
+
 Conceptuele informatiemodellen van het DSO:
 
  - [CIM-OW](https://github.com/Geonovum/dso-cim-ow): Conceptueel Informatiemodel Omgevingswet.
