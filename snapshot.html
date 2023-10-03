@@ -502,25 +502,29 @@ dataspecificatie.</p>
   <section id="uitgangspunten-voor-modellering"><div class="header-wrapper"><h2 id="x5-uitgangspunten-voor-modellering"><bdi class="secno">5. </bdi>Uitgangspunten voor modellering</h2><a class="self-link" href="#uitgangspunten-voor-modellering" aria-label="Permalink for Section 5."></a></div>
 <p>De volgende uitgangspunten zijn gehanteerd bij het opstellen van CIMOP-dso:</p>
 <ul>
-<li>Conformiteit met Metamodel voor informatiemodellering, MIM 1.1.1</li>
-<li>Begrippenkaders van STOP en CIMOW zijn leidend</li>
-<li>Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip in OZON nodig is.</li>
+<li>Conformiteit met Metamodel voor informatiemodellering, MIM 1.1.1.</li>
+<li>Begrippenkaders van STOP en CIMOW zijn.</li>
+<li>Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip mdat vain OZON nodig is.</li>
+<li>De scope van CIMOW-dso is de informatie die vanuit het DSO perspectief nodig is om van STOP te weten. Dit is ruim genomen onuit het DSO perspectief het nodig is om de context van de strikt benodigde STOP informtatie te weten. Deze context geeft voor een deel de achtergrond van de van uit de LVBB doorgezette informatie naar de DSO. Tevens is een bredere invulling gegeven omdat voor nu nog niet alle use cases en fucntionaliteit bedacht kan worden van de aan de DSO doorgeleverde informatie. Door een bredere scope te nemen ontstaat er een mogelijkheid voor ontdekken van toekomstige gewenste functionaliteit, bijvoorbeeld voor de viewer.</li>
 </ul>
+<p>Indien modellen voornamelijk bedoeld zijn om de bredere context aan te geven is dat kenbaar gemaakt.</p>
 <section id="uml-diagrammen-en-objectdefinities"><div class="header-wrapper"><h3 id="x5-1-uml-diagrammen-en-objectdefinities"><bdi class="secno">5.1 </bdi>UML diagrammen en objectdefinities</h3><a class="self-link" href="#uml-diagrammen-en-objectdefinities" aria-label="Permalink for Section 5.1"></a></div>
-<p>In het volgende hoofdstuk is de gegevensdefinitie opgenomen van het CIMOP-dso model. Het model is opgedeeld in een aantal onderdelen:</p>
+<p>In het volgende hoofdstuk is de gegevensdefinitie opgenomen van het CIMOP-dso model.
+Het model is opgedeeld in een aantal onderdelen:</p>
 <ul>
-<li>CIMOP - Overzichtsmodel voor officiële publicaties</li>
+<li>CIMOP - Overzichtsmodel voor officiële publicaties (Context)</li>
+<li>FRBR model als basismodel voor instrumenten (Context)</li>
 <li>Regeling-Besluit met een overzicht op hoofdlijn</li>
 <li>GIO</li>
 <li>Omgevingsvergunning</li>
-<li>BesluitCompact</li>
-<li>BesluitKlassiek</li>
+<li>BesluitCompact (Context)</li>
+<li>BesluitKlassiek (Context)</li>
 <li>RegelingCompact</li>
 <li>RegelingKlassiek</li>
 <li>RegelingVrijeTekst</li>
 <li>RegelingTijdelijkdeel</li>
 <li>Kennisgeving</li>
-<li>Consolidatie</li>
+<li>Consolidatie (Context)</li>
 </ul>
 <p>Bij elk model is een korte uitleg opgenomen. In die uitleg is indien relevant ook een referentie naar de STOP documentatie opgenomen.</p>
 <p>De modellen zijn conceptueel en geven de DSO view op STOP weer. De informatie-elementen zijn toegepast in metaklassen (o.a. objecttypen, attributen, relaties) die voor deze DSO-view handig zijn en niet noodzakelijkerwijze overeenkomen met de metaklassen in STOP. De relaties tussen objecttypen zijn over het algemeen aggregatierelaties met de naam 'bevat'. De associatieeinden hebben in de regel dezelfde naam als het doel of de bron van de relatie. Dit is bijna overal uniform toegepast en komt niet overeen met STOP maar is voor de DSO view voldoende.</p>
