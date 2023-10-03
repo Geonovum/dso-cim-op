@@ -3,26 +3,31 @@ Uitgangspunten voor modellering
 
 De volgende uitgangspunten zijn gehanteerd bij het opstellen van CIMOP-dso:
 
-- Conformiteit met Metamodel voor informatiemodellering, MIM 1.1.1
-- Begrippenkaders van STOP en CIMOW zijn leidend
-- Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip in OZON nodig is.
+- Conformiteit met Metamodel voor informatiemodellering, MIM 1.1.1.
+- Begrippenkaders van STOP en CIMOW zijn.
+- Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip mdat vain OZON nodig is.
+- De scope van CIMOW-dso is de informatie die vanuit het DSO perspectief nodig is om van STOP te weten. Dit is ruim genomen onuit het DSO perspectief het nodig is om de context van de strikt benodigde STOP informtatie te weten. Deze context geeft voor een deel de achtergrond van de van uit de LVBB doorgezette informatie naar de DSO. Tevens is een bredere invulling gegeven omdat voor nu nog niet alle use cases en fucntionaliteit bedacht kan worden van de aan de DSO doorgeleverde informatie. Door een bredere scope te nemen ontstaat er een mogelijkheid voor ontdekken van toekomstige gewenste functionaliteit, bijvoorbeeld voor de viewer.
+
+Indien modellen voornamelijk bedoeld zijn om de bredere context aan te geven is dat kenbaar gemaakt.
 
 UML diagrammen en objectdefinities
 -----------------
 
-In het volgende hoofdstuk is de gegevensdefinitie opgenomen van het CIMOP-dso model. Het model is opgedeeld in een aantal onderdelen:
-- CIMOP - Overzichtsmodel voor officiële publicaties
+In het volgende hoofdstuk is de gegevensdefinitie opgenomen van het CIMOP-dso model.
+Het model is opgedeeld in een aantal onderdelen:
+- CIMOP - Overzichtsmodel voor officiële publicaties (Context)
+- FRBR model als basismodel voor instrumenten (Context)
 - Regeling-Besluit met een overzicht op hoofdlijn
 - GIO
 - Omgevingsvergunning
-- BesluitCompact
-- BesluitKlassiek
+- BesluitCompact (Context)
+- BesluitKlassiek (Context)
 - RegelingCompact
 - RegelingKlassiek
 - RegelingVrijeTekst
 - RegelingTijdelijkdeel
 - Kennisgeving
-- Consolidatie
+- Consolidatie (Context)
 
 Bij elk model is een korte uitleg opgenomen. In die uitleg is indien relevant ook een referentie naar de STOP documentatie opgenomen.
 
