@@ -334,7 +334,7 @@ ul.index code{color:inherit}
     <h2>
       Geonovum Informatiemodel<br>
       Werkversie
-      <time class="dt-published" datetime="2023-10-09">09 oktober 2023</time>
+      <time class="dt-published" datetime="2023-10-10">10 oktober 2023</time>
     </h2>
     <dl>
       
@@ -389,11 +389,12 @@ ul.index code{color:inherit}
 <p>Opdrachtgever voor dit document is ............</p>
 </section>
   <section id="inleiding"><div class="header-wrapper"><h2 id="x2-inleiding"><bdi class="secno">2. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 2."></a></div>
-<p>In het Digitaal Stelsel Omgevingswet wordt als serviceproduct de tekstuele en ruimtelijke informatie van omgevingsdocumenten ontsloten. Dit serviceproduct is datagericht en legt de focus op de geannoteerde informatie. De informatie waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een digitale omgeving. De locatie of geo-informatie is voor het DSO de basis voor het weergeven en bevraagbaar maken van een omgevingsdocument. De compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de volledige informatie. Voor de tekst ligt de focus bij de Standaard Officiële Publicaties (STOP); deze standaard wordt beheerd door KOOP. Voor annotatie en locatie bij de standaard Informatiemodel Omgevingsdocumenten (IMOW), beheerd door Geonovum.</p>
+<p>In het Digitaal Stelsel Omgevingswet wordt als serviceproduct de tekstuele en ruimtelijke informatie van omgevingsdocumenten ontsloten. Dit serviceproduct is datagericht en legt de focus op de geannoteerde informatie. De informatie waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een digitale omgeving. De locatie of geo-informatie is voor het DSO de basis voor het weergeven en bevraagbaar maken van een omgevingsdocument. De compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de volledige informatie. Voor de tekst ligt en de juridische informaties ligt de focus bij de Standaard Officiële Publicaties (STOP); deze standaard wordt beheerd door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard Informatiemodel Omgevingsdocumenten (IMOW), beheerd door Geonovum.</p>
 <p>Vanuit het perspectief van het DSO is er een view nodig op STOP waarbij het STOP model gedefinieerd wordt vanuit de functionaliteit die voor het DSO nodig is. Deze view wordt gespecificeerd met dit Conceptueel Informatiemodel Officiële Publicaties-dso (CIMOP-dso). Het CIMOP-dso is een UML informatiemodel dat op conceptueel niveau STOP in relatie brengt tot het IMOW en de toepassing daarvan in het DSO. Alle voor het DSO benodigde en in STOP aanwezige semantiek en functionaliteit is in het CIMOP-dso beschreven. CIMOP-dso is conceptueel in de zin dat het alleen op conceptueel niveau de informatie beschrijft en geen implementatiespecificatie is. Het staat wat dat betreft naast en los van de in het DSO opgenomen implementatiespecificaties.</p>
 </section>
   <section id="toepassingsgebied"><div class="header-wrapper"><h2 id="x3-toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</h2><a class="self-link" href="#toepassingsgebied" aria-label="Permalink for Section 3."></a></div>
 <p>Het inhoudelijke toepassingsgebied is de view van het DSO op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in het DSO.</p>
+<p>CIMOP-dso refereert aan STOP 2.0 - versie.</p>
 <p>CIMOP-dso bevat de volgende componenten:</p>
 <ul>
 <li>Een algemeen regeling, besluitmodel om de relatie tussen wetgeving, bevoegd gezag, regeling aan te geven;</li>
@@ -452,24 +453,16 @@ Vul lijst aan. Kan zijn vanuit bevraging, viewer, consistentie, validatie enz
 </aside></div>
 
 <ul>
-<li><p>..iets met consolidatie..</p>
-</li>
-<li><p>..iets met bevraging..</p>
-</li>
-<li><p>Als ik vanuit de viewer op de tekst van een artikel klik wil ik uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten n het CIMOP </p>
-</li>
-<li><p>Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten daar bij horen zou ik graag willen terugzien in dit model</p>
-</li>
-<li><p>Het intrekken van een regeling (via een besluit) moet leiden tot het intrekken van IMOW objecten in de DSO-LV.</p>
-</li>
-<li><p>De relatie tussen IMOW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).</p>
-</li>
-<li><p>Consolidatie van IMOW objecten moet traceerbaar zijn naar besluiten.</p>
-</li>
-<li><p>Relatie tussen regelingversie en IMOW object moet traceerbaar zijn.</p>
-</li>
-<li><p>...</p>
-</li>
+<li>Ideeënontwikkeling voor de samenhang en afstemming tussen STOP en IMOW</li>
+<li>Ideeënontwikkeling voor de IMOW gerichte functionaliteit in OZON inclusief bevragings en presentatie functionaliteit gerelateerd aan STOP
+Voorbeeld van een aantal specifiek situaties waar de CIMOP-dso informatietechnisch kan ondersteunen:</li>
+<li>Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten in het CIMOP </li>
+<li>Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.</li>
+<li>Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde IMOW objecten DSO-LV.</li>
+<li>De relatie tussen IMOW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).</li>
+<li>Consolidatie van IMOW objecten moet traceerbaar zijn naar besluiten.</li>
+<li>Relatie tussen regelingversie en IMOW object moet traceerbaar zijn.</li>
+<li>...</li>
 </ul>
 </section></section></section><section id="normatieve-referenties"><div class="header-wrapper"><h3 id="x4-3-normatieve-referenties"><bdi class="secno">4.3 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Section 4.3"></a></div>
 <p>Verwijder referenties die niet van toepassing zijn of vul referenties aan.</p>
