@@ -3,6 +3,8 @@ Toepassingsgebied
 
 Het inhoudelijke toepassingsgebied is de view van het DSO op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in het DSO.
 
+CIMOP-dso refereert aan STOP 2.0 - versie.
+
 CIMOP-dso bevat de volgende componenten:
 - Een algemeen regeling, besluitmodel om de relatie tussen wetgeving, bevoegd gezag, regeling aan te geven;
 - Besluit en regelingmodellen relevant voor het DSO;

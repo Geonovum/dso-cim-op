@@ -66,12 +66,12 @@ Het CIMOP-dso heeft als algemene use case (gebruikstoepassing) om informatiekund
 Vul lijst aan. Kan zijn vanuit bevraging, viewer, consistentie, validatie enz
 </aside>
 
-- ..iets met consolidatie..
-- ..iets met bevraging..
-- Als ik vanuit de viewer op de tekst van een artikel klik wil ik uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten n het CIMOP 
-- Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten daar bij horen zou ik graag willen terugzien in dit model
-
-- Het intrekken van een regeling (via een besluit) moet leiden tot het intrekken van IMOW objecten in de DSO-LV.
+- Ideeënontwikkeling voor de samenhang en afstemming tussen STOP en IMOW
+- Ideeënontwikkeling voor de IMOW gerichte functionaliteit in OZON inclusief bevragings en presentatie functionaliteit gerelateerd aan STOP
+Voorbeeld van een aantal specifiek situaties waar de CIMOP-dso informatietechnisch kan ondersteunen:
+- Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten in het CIMOP 
+- Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.
+- Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde IMOW objecten DSO-LV.
 - De relatie tussen IMOW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).
 - Consolidatie van IMOW objecten moet traceerbaar zijn naar besluiten.
 - Relatie tussen regelingversie en IMOW object moet traceerbaar zijn.
