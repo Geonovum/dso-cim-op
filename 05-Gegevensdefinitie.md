@@ -6,7 +6,7 @@ De volgende uitgangspunten zijn gehanteerd bij het opstellen van CIMOP-dso:
 - Conformiteit met Metamodel voor informatiemodellering, MIM 1.1.1.
 - Begrippenkaders van STOP is leidend.
 - Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip van OZON nodig is.
-- De scope van CIMOP-dso is de informatie die vanuit het DSO perspectief nodig is om van STOP te weten. Dit is ruim genomen onuit het DSO perspectief het nodig is om de context van de strikt benodigde STOP informtatie te weten. Deze context geeft voor een deel de achtergrond van de van uit de LVBB doorgezette informatie naar de DSO. Tevens is een bredere invulling gegeven omdat voor nu nog niet alle use cases en fucntionaliteit bedacht kan worden van de aan de DSO doorgeleverde informatie. Door een bredere scope te nemen ontstaat er een mogelijkheid voor ontdekken van toekomstige gewenste functionaliteit, bijvoorbeeld voor de viewer.
+- De scope van CIMOP-dso is de informatie die vanuit het DSO perspectief nodig is om van STOP te weten. Dit is ruim genomen onuit het DSO perspectief het nodig is om de context van de strikt benodigde STOP informtatie te weten. Deze context geeft voor een deel de achtergrond van de van uit de LVBB doorgezette informatie naar de DSO. Tevens is een bredere invulling gegeven omdat voor nu nog niet alle use cases en functionaliteit bedacht kan worden van de aan de DSO doorgeleverde informatie. Door een bredere scope te nemen ontstaat er een mogelijkheid voor ontdekken van toekomstige gewenste functionaliteit, bijvoorbeeld voor de viewer.
 
 Indien modellen voornamelijk bedoeld zijn om de bredere context aan te geven is dat kenbaar gemaakt door het label `(Context)`.
 
@@ -19,13 +19,12 @@ Het model is opgedeeld in een aantal onderdelen:
 - FRBR model als basismodel voor instrumenten `(Context)`
 - Regeling-Besluit met een overzicht op hoofdlijn
 - GIO
-- Omgevingsvergunning
-- BesluitCompact `(Context)`
-- BesluitKlassiek `(Context)`
-- RegelingCompact
-- RegelingKlassiek
-- RegelingVrijeTekst
-- RegelingTijdelijkdeel
+- Besluit compact `(Context)`
+- Besluit klassiek `(Context)`
+- Regeling compact
+- Regeling klassiek
+- Regeling vrijetekststructuur
+- Tijdelijk regelingdeel
 - Kennisgeving
 - Consolidatie `(Context)`
 
@@ -37,9 +36,8 @@ Na de diagrammen komt een objectcatalogus met de definities van de CIMOP-dso inf
 
 
 <aside class="note">
-Vraag is of de objectcatalogus nodig is voor STOP elementen. Liever verwijs ik daarvoor naar STOP. In een aantal gevallen is dat ook gedaan. Het wordt echter moeilijk om deze referenties te beheren.
+Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van informatie-elementen nwoirdt verweezen naar de [STOP](https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html) documentatie
 
-De toegevoegde DSO constructies zoals bijvoorbeeld DocumentComponent wel in catalogus.
 </aside>
 
 
