@@ -110,17 +110,6 @@ dd{margin-left:0}
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px}
 </style>
-<style>
-ul.index{columns:30ch;column-gap:1.5em}
-ul.index li{list-style:inherit}
-ul.index li span{color:inherit;cursor:pointer;white-space:normal}
-#index-defined-here ul.index li{font-size:.9rem}
-ul.index code{color:inherit}
-#index-defined-here .print-only{display:none}
-@media print{
-#index-defined-here .print-only{display:initial}
-}
-</style>
 <meta name="description" content="Dit ducument bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties bekeken vanuit het DSO perspectief.">
 <style>
 
@@ -327,7 +316,7 @@ ul.index code{color:inherit}
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
 
-<body class="h-entry toc-inline"><div class="head">
+<body class="h-entry informative toc-inline"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Conceptueel Informatiemodel Officiële Publicaties -- versie voor review STOP--</h1>
     
@@ -396,7 +385,7 @@ DSO. Er is een reeks van deze modellen:</p>
 <li><a href="https://geonovum.github.io/dso-cim-tr/">CIM-TR</a>: Conceptueel Informatiemodel Toepasbare Regels.</li>
 </ul>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#naam-en-acroniemen"><bdi class="secno">4.1 </bdi>Naam en Acroniemen</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><bdi class="secno">4.2 </bdi>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie"><bdi class="secno">4.2.1 </bdi>Definitie</a></li><li class="tocline"><a class="tocxref" href="#beschrijving"><bdi class="secno">4.2.2 </bdi>Beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#use-cases-voor-cimop-dso"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIMOP-dso</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">4.3 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.5 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-voor-modellering"><bdi class="secno">5. </bdi>Uitgangspunten voor modellering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uml-diagrammen-en-objectdefinities"><bdi class="secno">5.1 </bdi>UML diagrammen en objectdefinities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">6. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_packages"><bdi class="secno">6.1 </bdi>Model   dso-cim-op</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_A1247576_E36C_4ba6_A161_CDC701845859"><bdi class="secno">6.1.1 </bdi>   CIMOP - Model officiële publicaties - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_0F7A00A1_FF1C_40f7_9781_3F373A552D1C"><bdi class="secno">6.1.2 </bdi>   FRBRmodel - overzicht</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_package_RegelingBesluit"><bdi class="secno">6.2 </bdi>Domein   Regeling-Besluit</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_5C9C1AA3_5E64_45f1_8F1B_8BA16B727767"><bdi class="secno">6.2.1 </bdi>   CIMOP - Regeling en besluit - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_868054DA_70C4_4698_9CFE_213836F9DE42"><bdi class="secno">6.2.2 </bdi>   GIO - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_C3A78E9F_FD37_4d3f_9FFA_7A6AF3D24492"><bdi class="secno">6.2.3 </bdi>   Besluit compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_4EBF1CC2_389D_44ac_A307_E8B538A224E5"><bdi class="secno">6.2.4 </bdi>   Toelichtingsrelatie - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_BD5AC351_9205_4ae3_9BBA_76954F6AAF9D"><bdi class="secno">6.2.5 </bdi>   Besluit klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_39A143E3_1F82_408f_BACE_5C068A2C68B3"><bdi class="secno">6.2.6 </bdi>   Regeling compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_F94F5E41_71C5_4a69_8078_F0B8BC3C65E8"><bdi class="secno">6.2.7 </bdi>   Regeling klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_A8E7083D_E169_4038_BEEA_D1BD736C568F"><bdi class="secno">6.2.8 </bdi>   Regeling met vrijetekststructuur - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B68BBAB3_5E76_45fe_B950_C55377E82992"><bdi class="secno">6.2.9 </bdi>   Tijdelijk regelingdeel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_7A61B0F8_E885_4bef_83D2_82AFB42CCA55"><bdi class="secno">6.2.10 </bdi>   Kennisgeving - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B20156B3_4932_454c_9AD0_16DB961D84B3"><bdi class="secno">6.2.11 </bdi>   Consolidatie - overzicht</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#bibliografie"><bdi class="secno">7. </bdi>Bibliografie</a></li><li class="tocline"><a class="tocxref" href="#bijlage-x"><bdi class="secno">8. </bdi>Bijlage x</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">9. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">10. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#naam-en-acroniemen"><bdi class="secno">4.1 </bdi>Naam en Acroniemen</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><bdi class="secno">4.2 </bdi>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie"><bdi class="secno">4.2.1 </bdi>Definitie</a></li><li class="tocline"><a class="tocxref" href="#beschrijving"><bdi class="secno">4.2.2 </bdi>Beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#use-cases-voor-cimop-dso"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIMOP-dso</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">4.3 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.5 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-voor-modellering"><bdi class="secno">5. </bdi>Uitgangspunten voor modellering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uml-diagrammen-en-objectdefinities"><bdi class="secno">5.1 </bdi>UML diagrammen en objectdefinities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">6. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_packages"><bdi class="secno">6.1 </bdi>Model   dso-cim-op</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_A1247576_E36C_4ba6_A161_CDC701845859"><bdi class="secno">6.1.1 </bdi>   CIMOP - Model officiële publicaties - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_0F7A00A1_FF1C_40f7_9781_3F373A552D1C"><bdi class="secno">6.1.2 </bdi>   FRBRmodel - overzicht</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_package_RegelingBesluit"><bdi class="secno">6.2 </bdi>Domein   Regeling-Besluit</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_5C9C1AA3_5E64_45f1_8F1B_8BA16B727767"><bdi class="secno">6.2.1 </bdi>   CIMOP - Regeling en besluit - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_868054DA_70C4_4698_9CFE_213836F9DE42"><bdi class="secno">6.2.2 </bdi>   GIO - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_C3A78E9F_FD37_4d3f_9FFA_7A6AF3D24492"><bdi class="secno">6.2.3 </bdi>   Besluit compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_4EBF1CC2_389D_44ac_A307_E8B538A224E5"><bdi class="secno">6.2.4 </bdi>   Toelichtingsrelatie - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_BD5AC351_9205_4ae3_9BBA_76954F6AAF9D"><bdi class="secno">6.2.5 </bdi>   Besluit klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_39A143E3_1F82_408f_BACE_5C068A2C68B3"><bdi class="secno">6.2.6 </bdi>   Regeling compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_F94F5E41_71C5_4a69_8078_F0B8BC3C65E8"><bdi class="secno">6.2.7 </bdi>   Regeling klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_A8E7083D_E169_4038_BEEA_D1BD736C568F"><bdi class="secno">6.2.8 </bdi>   Regeling met vrijetekststructuur - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B68BBAB3_5E76_45fe_B950_C55377E82992"><bdi class="secno">6.2.9 </bdi>   Tijdelijk regelingdeel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_7A61B0F8_E885_4bef_83D2_82AFB42CCA55"><bdi class="secno">6.2.10 </bdi>   Kennisgeving - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B20156B3_4932_454c_9AD0_16DB961D84B3"><bdi class="secno">6.2.11 </bdi>   Consolidatie - overzicht</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li></ol></nav>
 
   <section id="voorwoord"><div class="header-wrapper"><h2 id="x1-voorwoord"><bdi class="secno">1. </bdi>Voorwoord</h2><a class="self-link" href="#voorwoord" aria-label="Permalink for Section 1."></a></div>
 <p>Dit document is tot stand gekomen binnen het programma DSO-Omgegevingswet. Het bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties bekeken vanuit het DSO perspectief. Het bevat in die zin de specificaties van het algemene STOP model die een rol spelen bij de implementatie van STOP in relatie tot IMOW in het DSO. Het is daarmee uitdrukkelijk geen vervanging van de beschrijving van STOP zoals die door KOOP wordt beheerd.</p>
@@ -417,14 +406,8 @@ DSO. Er is een reeks van deze modellen:</p>
 <li>Een model om de consolidatie informatie te koppelen aan het DSO proces.</li>
 </ul>
 <p>Voor al deze componenten geldt dat alleen de DSO view op deze componenten wordt gegeven.
-De informatiemodellen worden conform MIM beschreven en zijn opgesteld in UML. De informatielementen in het CIMOP-dso worden gerelateerd aan de begrippen van STOP en IMOW. Voor de zelfstandige leesbaarheid van dit document zijn die begrippen ook in dit document met bronreferentie opgenomen.</p>
-<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="3"><span>Noot</span></div><aside class="">
-Is het wel slim om de begrippen ook in dit doc op te nemen. Liever een referentie naar de bron.
-
-<p>Dit is nu in deze versie gedaan door bij de UML diagrammen een referentie op te nemen naar het bronmodel in STOP.
-Voor de individuele informatie-elementen, klassen en eigenschappen, is dat moeilijker, cq meer werk en is de vraag of die urls persistent zijn. Idee is daarom om de definities van klassen en eigenschappen en ook de referentie naar STOP bron niet in dit document op te nemen. </p>
-<p>In het huidige doc is dat nog niet doorgevoerd. </p>
-</aside></div></section>
+De informatiemodellen worden conform MIM beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.</p>
+</section>
   <section id="overzicht"><div class="header-wrapper"><h2 id="x4-overzicht"><bdi class="secno">4. </bdi>Overzicht</h2><a class="self-link" href="#overzicht" aria-label="Permalink for Section 4."></a></div>
 <p><strong>Dit hoofdstuk beschrijft kenmerken van deze Dataspecificatie.</strong></p>
 <section id="naam-en-acroniemen"><div class="header-wrapper"><h3 id="x4-1-naam-en-acroniemen"><bdi class="secno">4.1 </bdi>Naam en Acroniemen</h3><a class="self-link" href="#naam-en-acroniemen" aria-label="Permalink for Section 4.1"></a></div>
@@ -440,7 +423,7 @@ Voor de individuele informatie-elementen, klassen en eigenschappen, is dat moeil
 </section><section id="beschrijving"><div class="header-wrapper"><h4 id="x4-2-2-beschrijving"><bdi class="secno">4.2.2 </bdi>Beschrijving</h4><a class="self-link" href="#beschrijving" aria-label="Permalink for Section 4.2.2"></a></div>
 <p>CIMOP-dso beschrijft de integratie van de informatie, data van de Landelijke voorziening Bekendmaking Besluiten (LVBB) en de landelijke voorziening OZON.</p>
 <p>Voor het beeld van die integratie of beter koppeling is het goed om een beeld van beide voorzieningen te hebben. We maken daarbij gebruik van beschrijvingen zoals ze opgenomen in het DSO architectuur document DSO-LV/LVBB diensteneninformatiestromen per applicatiecluster.</p>
-<div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="5"><span>Noot</span></div><aside class="">
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="5"><span>Noot</span></div><aside class="">
 Hier had ik graag een architectuur plaat over de ketenuitwisseling tussen LVBB en OZON. Is die er?
 </aside></div>
 
@@ -462,7 +445,7 @@ Hier had ik graag een architectuur plaat over de ketenuitwisseling tussen LVBB e
 <p>Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIMOP-dso beschrijft die combinatie en afhankelijkheid vanuit het perspectief van het DSO. Deze wordt in dit document de view van DSO op STOP genoemd.</p>
 <section id="use-cases-voor-cimop-dso"><div class="header-wrapper"><h5 id="x4-2-2-1-use-cases-voor-cimop-dso"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIMOP-dso</h5><a class="self-link" href="#use-cases-voor-cimop-dso" aria-label="Permalink for Section 4.2.2.1"></a></div>
 <p>Het CIMOP-dso heeft als algemene use case (gebruikstoepassing) om informatiekundige relaties te leggen tussen functionaliteiten in DSO en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIMOP-dso beantwoord moeten worden.</p>
-<div class="note" role="note" id="issue-container-generatedID-1"><div role="heading" class="note-title marker" id="h-note-1" aria-level="6"><span>Noot</span></div><aside class="">
+<div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="6"><span>Noot</span></div><aside class="">
 Vul lijst aan. Kan zijn vanuit bevraging, viewer, consistentie, validatie enz
 </aside></div>
 
@@ -488,7 +471,7 @@ Voorbeeld van een aantal specifiek situaties waar de CIMOP-dso informatietechnis
 </ul>
 </section><section id="termen-en-definities"><div class="header-wrapper"><h3 id="x4-4-termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</h3><a class="self-link" href="#termen-en-definities" aria-label="Permalink for Section 4.4"></a></div>
 <p>Lijst van termen en definities die in deze beschrijving worden gehanteerd.</p>
-<div class="note" role="note" id="issue-container-generatedID-2"><div role="heading" class="note-title marker" id="h-note-2" aria-level="4"><span>Noot</span></div><aside class="">
+<div class="note" role="note" id="issue-container-generatedID-1"><div role="heading" class="note-title marker" id="h-note-1" aria-level="4"><span>Noot</span></div><aside class="">
 Nog invullen
 </aside></div>
 
@@ -539,11 +522,10 @@ Het model is opgedeeld in een aantal onderdelen:</p>
 <p>Bij elk model is een korte uitleg opgenomen. In die uitleg is indien relevant ook een referentie naar de STOP documentatie opgenomen.</p>
 <p>De modellen zijn conceptueel en geven de DSO view op STOP weer. De informatie-elementen zijn toegepast in metaklassen (o.a. objecttypen, attributen, relaties) die voor deze DSO-view handig zijn en niet noodzakelijkerwijze overeenkomen met de metaklassen in STOP. De relaties tussen objecttypen zijn over het algemeen aggregatierelaties met de naam 'bevat'. De associatieeinden hebben in de regel dezelfde naam als het doel of de bron van de relatie. Dit is bijna overal uniform toegepast en komt niet overeen met STOP maar is voor de DSO view voldoende.</p>
 <p>Na de diagrammen komt een objectcatalogus met de definities van de CIMOP-dso informatie-elementen.</p>
-<div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-3" aria-level="4"><span>Noot</span></div><aside class="">
-Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van informatie-elementen nwoirdt verweezen naar de [STOP](https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html) documentatie
+<div class="note" role="note" id="issue-container-generatedID-2"><div role="heading" class="note-title marker" id="h-note-2" aria-level="4"><span>Noot</span></div><aside class="">
+Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van informatieelementen wordt verwezen naar de [STOP] (https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html) documentatie
 
 </aside></div>
-
 
 <p>In de diagrammen zijn de objecttypen aan te klikken en wordt er gelinkt naar de beschrijving opgenomen in de objectcatalogus.</p>
 <p>Voor het inzoomen in de UML diagrammen kan het best het diagram in een apart tabblad van de browser worden geopenend. Afhankelijk van het type browser is dit meestal via een rechtermuisklik en 'open in nieuw tabblad'.</p>
@@ -1642,75 +1624,11 @@ Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van i
   
   
   
-  <section id="bibliografie"><div class="header-wrapper"><h2 id="x7-bibliografie"><bdi class="secno">7. </bdi>Bibliografie</h2><a class="self-link" href="#bibliografie" aria-label="Permalink for Section 7."></a></div>
-<p><strong>Dit hoofdstuk beschrijft relevante documenten die betrekking hebben op deze
-dataspecificatie.</strong></p>
-<div class="note" role="note" id="issue-container-generatedID-4"><div role="heading" class="note-title marker" id="h-note-4" aria-level="3"><span>Noot</span></div><aside class="">
-TODO
-</aside></div>
-
-<p><em>Verwijder onderdelen die niet van toepassing zijn uit onderstaande lijst</em></p>
-<ul>
-<li><p>[DS-D2.3] INSPIRE DS-D2.3, Definition of Annex Themes and Scope, v3.0,
-<a href="http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.3_Definition_of_Annex_Themes_and_scope_v3.0.pdf">http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.3_Definition_of_Annex_Themes_and_scope_v3.0.pdf</a></p>
-</li>
-<li><p>[DS-D2.5] INSPIRE DS-D2.5, Generic Conceptual Model, v3.1,
-<a href="http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.5_v3.1.pdf">http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.5_v3.1.pdf</a></p>
-</li>
-<li><p>[DS-D2.6] INSPIRE DS-D2.6, Methodology for the development of data
-specifications, v3.0,
-<a href="http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.6_v3.0.pdf">http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.6_v3.0.pdf</a></p>
-</li>
-<li><p>[DS-D2.7] INSPIRE DS-D2.7, Guidelines for the encoding of spatial data,
-v3.0,
-<a href="http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.7_v3.0.pdf">http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.7_v3.0.pdf</a></p>
-</li>
-<li><p>[ISO 19101] EN ISO 19101:2005 Geographic information – Reference model (ISO
-19101:2002)</p>
-</li>
-<li><p>[ISO 19103] ISO/TS 19103:2005, Geographic information – Conceptual schema
-language</p>
-</li>
-<li><p>[ISO 19107] EN ISO 19107:2005, Geographic information – Spatial schema (ISO
-19107:2003)</p>
-</li>
-<li><p>[ISO 19108] EN ISO 19108:2005 Geographic information - Temporal schema (ISO
-19108:2002)</p>
-</li>
-<li><p>[ISO 19111] EN ISO 19111:2007 Geographic information - Spatial referencing
-by coordinates (ISO 19111:2007)</p>
-</li>
-<li><p>[ISO 19115] EN ISO 19115:2005, Geographic information – Metadata (ISO
-19115:2003)</p>
-</li>
-<li><p>[ISO 19118] EN ISO 19118:2006, Geographic information – Encoding (ISO
-19118:2005)</p>
-</li>
-<li><p>[ISO 19135] EN ISO 19135:2007 Geographic information – Procedures for item
-registration (ISO 19135:2005)</p>
-</li>
-<li><p>[ISO 19139] ISO/TS 19139:2007, Geographic information – Metadata – XML
-schema implementation</p>
-</li>
-<li><p>[OGC 06-103r3] Implementation Specification for Geographic Information -
-Simple feature access – Part 1: Common Architecture v1.2.0</p>
-</li>
-</ul>
-<p><em>Voeg hier eventueel referenties toe naar relevante documenten die betrekking
-hebben op het dataproduct.</em></p>
-<ul>
-<li>&lt;achternaam auteur&gt;.&lt;voorletters auteur&gt;, &lt;jaartal&gt;, &lt;titel&gt;,
-&lt;uitgever&gt;, &lt;ISBN nummer&gt;</li>
-</ul>
-</section>
-  <section id="bijlage-x"><div class="header-wrapper"><h2 id="x8-bijlage-x"><bdi class="secno">8. </bdi>Bijlage x</h2><a class="self-link" href="#bijlage-x" aria-label="Permalink for Section 8."></a></div>
-<p>Deze bijlage beschrijft &lt;korte toelichting&gt;</p>
-<p><em>Voeg additionele informatie toe (bijvoorbeeld nadere toelichtingen of
-voorbeelden) die de dataspecificatie verder verduidelijken.</em></p>
-</section>
  
-  <section id="conformance"><div class="header-wrapper"><h2 id="x9-conformiteit"><bdi class="secno">9. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 9."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
-  <section id="tof"><div class="header-wrapper"><h2 id="x10-lijst-met-figuren"><bdi class="secno">10. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 10."></a></div><ul class="tof">
+
+ 
+  
+  <section id="tof"><div class="header-wrapper"><h2 id="x7-lijst-met-figuren"><bdi class="secno">7. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 7."></a></div><ul class="tof">
         <li class="tofline">
     <a class="tocxref" href="#Figuur_1"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Context applicatiecluster Landelijke voorziening bekendmaken en beschikbaarstellen (LVBB) (bron: OGAS)</span></a>
   </li><li class="tofline">
@@ -1743,17 +1661,7 @@ voorbeelden) die de dataspecificatie verder verduidelijken.</em></p>
     <a class="tocxref" href="#fig-consolidatie"><span class="self-link">Figuur <bdi class="figno">15</bdi></span> <span class="fig-title">Consolidatie</span></a>
   </li>
       </ul></section>
-  <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
-    <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
-    <ul class="index">
-    
-  </ul>
-  </section><section id="index-defined-elsewhere">
-    <div class="header-wrapper"><h3 id="a-2-begrippen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</h3><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for Appendix A.2"></a></div>
-    <ul class="index">
-    
-  </ul>
-  </section></section>
+
 
 
 
