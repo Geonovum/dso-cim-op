@@ -36,10 +36,9 @@ Na de diagrammen komt een objectcatalogus met de definities van de CIMOP-dso inf
 
 
 <aside class="note">
-Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van informatie-elementen nwoirdt verweezen naar de [STOP](https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html) documentatie
+Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van informatieelementen wordt verwezen naar de [STOP] (https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html) documentatie
 
 </aside>
-
 
 In de diagrammen zijn de objecttypen aan te klikken en wordt er gelinkt naar de beschrijving opgenomen in de objectcatalogus.
 
