@@ -107,15 +107,13 @@ OPMERKING Geo-informatie is synoniem aan geografische informatie
 
 ## Symbolen en afkortingen
 
-Lijst van afkortingen en acroniemen die worden gehanteerd in deze
-dataspecificatie.
+- **CIMOP** Conceptueel Informatiemodel Officiële Publicaties
+- **CIMOW** Conceptueel Informatiemodel Omgevingswet
+- **DSO** Digitaal Stelsel Omgevingswet.
+- **LVBB**: Landelijke Voorziening Bekendmaken en Beschikbaarstellen
+- **MIM** Metamodel voor Informatiemodellen.
+_ **Ozon**: Objectgerichte Ontsluiting Omgevingsdocumente
+- **STOP** Standaard Officiële Publicaties.
+- **TPOD** Toepassingsprofiel Omgevingswet.
+- **UML** Universal Modeling Language.
 
-**CIMOW**: Conceptueel Informatiemodel Omgevingswet
-
-**IMOW**: Informatiemodel Omgevingswet
-
-**LVBB**: Landelijke Voorziening Bekendmaken en Beschikbaarstellen
-
-**Ozon**: Objectgerichte Ontsluiting Omgevingsdocumenten
-
-**STOP**: Standaard Officiële Publicaties
