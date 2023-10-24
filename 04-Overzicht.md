@@ -14,13 +14,13 @@ CIMOP-dso: Conceptueel Informatiemodel Officiële Publicaties binnen de context 
 
 Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIMOP-dso).
 
-**STOP**: Standaard Officiële Publicaties
 
-**Officiële Publicatie**: De bekendmaking in een Officieel publicatieblad. (Bron STOP).
+<dfn>Officiële Publicatie</dfn>: De bekendmaking in een Officieel publicatieblad. (Bron STOP).
 
-**Publicatieblad**: Een van de bekendmakingsbladen waarin de officiële publicaties bekend gemaakt worden. (Bron STOP).
+<def>Publicatieblad</dfn>: Een van de bekendmakingsbladen waarin de officiële publicaties bekend gemaakt worden. (Bron STOP).
 
-**DSO**: Digitaal Stelsel Omgevingswet
+
+<dfn>Geo-informatie</dfn> Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte van de aarde, bijvoorbeeld ten opzichte van het aardoppervlak. Geo-informatie is een synoniem
 
 CIMOP-dso bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
 
@@ -58,7 +58,7 @@ Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnform
 
 Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIMOP-dso beschrijft die combinatie en afhankelijkheid vanuit het perspectief van het DSO. Deze wordt in dit document de view van DSO op STOP genoemd.
 
-#### Use-cases voor CIMOP-dso
+## Use-cases voor CIMOP-dso
 
 Het CIMOP-dso heeft als algemene use case (gebruikstoepassing) om informatiekundige relaties te leggen tussen functionaliteiten in DSO en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIMOP-dso beantwoord moeten worden.
 
@@ -79,23 +79,15 @@ Voorbeeld van een aantal specifiek situaties waar de CIMOP-dso informatietechnis
 
 ## Normatieve referenties
 
-Verwijder referenties die niet van toepassing zijn of vul referenties aan.
-
+De volgende documenten zijn gehanteerd bij de totstandkoming van dit document
  - Basisgeometrie
  - Conceptueel Informatiemodel Omgevingswet (CIMOW)
  - Informatiemodel Omgevingswet (IMOW)
- - Standaard Officiële Publicaties (STOP)
+ - [Standaard Officiële Publicaties versie 2.0.0-rc (STOP)](https://koop.gitlab.io/STOP/standaard/2.0.0-rc/)
 
 
 
-## Termen en definities
 
-Lijst van termen en definities die in deze beschrijving worden gehanteerd.
-
-<dfn>Geo-informatie</dfn> Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
-van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
-
-OPMERKING Geo-informatie is synoniem aan geografische informatie
 
 ## Symbolen en afkortingen
 
@@ -107,5 +99,5 @@ OPMERKING Geo-informatie is synoniem aan geografische informatie
 - **Ozon**: Objectgerichte Ontsluiting Omgevingsdocumente
 - **STOP** Standaard Officiële Publicaties.
 - **TPOD** Toepassingsprofiel Omgevingswet.
-- **UML** Universal Modeling Language.
+- **UML** Unified Modeling Language.
 
