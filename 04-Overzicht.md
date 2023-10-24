@@ -10,7 +10,7 @@ CIMOP-dso: Conceptueel Informatiemodel Officiële Publicaties binnen de context 
 
 ## Informele beschrijving
 
-### Definitie
+### Definities
 
 Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIMOP-dso).
 
@@ -22,7 +22,7 @@ Een aantal begrippen omvat de definitie van het domein van het Conceptuel Inform
 
 **DSO**: Digitaal Stelsel Omgevingswet
 
-CIMOP bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
+CIMOP-dso bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
 
 ### Beschrijving
 
@@ -75,7 +75,6 @@ Voorbeeld van een aantal specifiek situaties waar de CIMOP-dso informatietechnis
 - De relatie tussen IMOW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).
 - Consolidatie van IMOW objecten moet traceerbaar zijn naar besluiten.
 - Relatie tussen regelingversie en IMOW object moet traceerbaar zijn.
-- ...
 
 
 ## Normatieve referenties
@@ -93,26 +92,19 @@ Verwijder referenties die niet van toepassing zijn of vul referenties aan.
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
-<aside class="note">
-Nog invullen
-</aside>
-
-
-(13) Geo-informatie
-
-Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
+<dfn>bGeo-informatieoek</dfn> Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
 van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 OPMERKING Geo-informatie is synoniem aan geografische informatie
 
 ## Symbolen en afkortingen
 
-- **CIMOP** Conceptueel Informatiemodel Officiële Publicaties
-- **CIMOW** Conceptueel Informatiemodel Omgevingswet
+- **CIM-OP** Conceptueel Informatiemodel Officiële Publicaties
+- **CIM-OW** Conceptueel Informatiemodel Omgevingswet
 - **DSO** Digitaal Stelsel Omgevingswet.
 - **LVBB**: Landelijke Voorziening Bekendmaken en Beschikbaarstellen
 - **MIM** Metamodel voor Informatiemodellen.
-_ **Ozon**: Objectgerichte Ontsluiting Omgevingsdocumente
+- **Ozon**: Objectgerichte Ontsluiting Omgevingsdocumente
 - **STOP** Standaard Officiële Publicaties.
 - **TPOD** Toepassingsprofiel Omgevingswet.
 - **UML** Universal Modeling Language.
