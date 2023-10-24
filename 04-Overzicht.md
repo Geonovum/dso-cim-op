@@ -92,7 +92,7 @@ Verwijder referenties die niet van toepassing zijn of vul referenties aan.
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
-<dfn>bGeo-informatieoek</dfn> Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
+<dfn>Geo-informatie</dfn> Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
 van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 OPMERKING Geo-informatie is synoniem aan geografische informatie
