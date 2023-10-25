@@ -37,7 +37,7 @@ Hier had ik graag een architectuur plaat over de ketenuitwisseling tussen LVBB e
 
 **LVBB**
 
-De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van officiele publicaties. DeLVBBontvangt alle besluiten van het bevoegd gezag, maakt daar officiële bekendmakingen van en stelt denieuwetoestanden van geconsolideerde regelingen samen. De toestanden die hier ontstaan moeten planmatigworden doorgeleverd aan DSO-LV en op verzoek ook worden terug geleverd aan het bevoegd gezag.
+De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van officiele publicaties. DeLVBB ontvangt alle besluiten van het bevoegd gezag, maakt daar officiële bekendmakingen van en stelt de nieuwe toestanden van geconsolideerde regelingen samen. De toestanden die hier ontstaan moeten planmatig worden doorgeleverd aan DSO-LV en op verzoek ook worden terug geleverd aan het bevoegd gezag.
 
 
 <figure id="Figuur_1">
@@ -55,8 +55,21 @@ Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnform
 <figcaption>Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: OGAS)</figcaption>
 </figure>
 
+In onderstaand figuur wordt een overzicht gegeven van de infromatie-uitwisseling tussen verschillende componenten inclusief de LVBB en de DSO-LV met OZON.
+
+<figure id="Figuur_3">
+<img src="media/Informatieuitwisseling LVBB-DSO-LV.png" alt="">
+<figcaption>Overzicht informatie-uitwisseling tussen LVBB en DSO-LV (bron: OGAS)</figcaption>
+</figure>
 
 Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIMOP-dso beschrijft die combinatie en afhankelijkheid vanuit het perspectief van het DSO. Deze wordt in dit document de view van DSO op STOP genoemd.
+
+Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIMOP en CIMOW.
+
+<figure id="Figuur_4">
+<img src="media/DSO-IMOW-IMOP-standaardkoppelingen-Standaarden en samenhang.png" alt="">
+<figcaption>Relatie tussen kern-objecttypen uit CIMOP en CIMOW</figcaption>
+</figure>
 
 #### Use-cases voor CIMOP-dso
 
