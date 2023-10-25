@@ -12,7 +12,7 @@ CIMOP-dso bevat de volgende componenten:
 - Een model om de consolidatie informatie te koppelen aan het DSO proces.
 
 Voor al deze componenten geldt dat alleen de DSO view op deze componenten wordt gegeven.
-De informatiemodellen worden conform MIM beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.
+De informatiemodellen worden conform [[MIM]] beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.
 
 <!--
 <aside class="note">

@@ -37,7 +37,7 @@ Hier had ik graag een architectuur plaat over de ketenuitwisseling tussen LVBB e
 
 **LVBB**
 
-De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van officiele publicaties. DeLVBB ontvangt alle besluiten van het bevoegd gezag, maakt daar officiële bekendmakingen van en stelt de nieuwe toestanden van geconsolideerde regelingen samen. De toestanden die hier ontstaan moeten planmatig worden doorgeleverd aan DSO-LV en op verzoek ook worden terug geleverd aan het bevoegd gezag.
+De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van officiele publicaties. De LVBB ontvangt alle besluiten van het bevoegd gezag, maakt daar officiële bekendmakingen van en stelt de nieuwe toestanden van geconsolideerde regelingen samen. De toestanden die hier ontstaan moeten planmatig worden doorgeleverd aan DSO-LV en op verzoek ook worden terug geleverd aan het bevoegd gezag.
 
 
 <figure id="Figuur_1">
