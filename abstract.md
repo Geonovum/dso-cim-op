@@ -1,4 +1,4 @@
-Dit ducument bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties bekeken vanuit het DSO perspectief.
+Dit document bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties bekeken vanuit het DSO perspectief.
 
 
 Dit is een conceptueel model van het
