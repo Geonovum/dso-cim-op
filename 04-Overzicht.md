@@ -88,10 +88,11 @@ Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch
 
 CIM-OP verwijst normatief naar een aantal standaarden.
 
- - Basisgeometrie
- - Conceptueel Informatiemodel Omgevingswet (CIMOW)
- - Informatiemodel Omgevingswet (IMOW)
- - Standaard Officiële Publicaties (STOP)
+ - MIM - Metamodel Informatie Modellering [[MIM]].
+ - Basisgeometrie [[Basisgeometrie]].
+ - Conceptueel Informatiemodel Omgevingswet [[CIMOW]].
+ - Informatiemodel Omgevingswet [[IMOW]].
+ - Standaard Officiële Publicaties [[STOP20]].
 
 ## Termen en definities
 
@@ -101,10 +102,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 Nog invullen
 </aside>
 
-
-(13) Geo-informatie
-
-Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
+ - <dfn>geo-informatie</dfn>: Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
 van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 OPMERKING Geo-informatie is synoniem aan geografische informatie
