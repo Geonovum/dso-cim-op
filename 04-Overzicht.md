@@ -102,10 +102,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 Nog invullen
 </aside>
 
-
-(13) Geo-informatie
-
-Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
+ - <dfn>geo-informatie</dfn>: Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
 van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 OPMERKING Geo-informatie is synoniem aan geografische informatie
