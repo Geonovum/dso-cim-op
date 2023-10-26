@@ -1,17 +1,17 @@
 Toepassingsgebied
 -----------------
 
-Het inhoudelijke toepassingsgebied is de view van het DSO op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in het DSO.
+Het inhoudelijke toepassingsgebied is de view van de DSO-LV op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in de DSO-LV.
 
-CIMOP-dso refereert aan STOP 2.0 - versie.
+CIM-OP refereert aan STOP 2.0 - versie.
 
-CIMOP-dso bevat de volgende componenten:
+CIM-OP bevat de volgende componenten:
 - Een algemeen regeling, besluitmodel om de relatie tussen wetgeving, bevoegd gezag, regeling aan te geven;
-- Besluit en regelingmodellen relevant voor het DSO;
+- Besluit en regelingmodellen relevant voor de DSO-LV;
 - Een ruimtelijkmodel om de locatie aan regels te koppelen.
-- Een model om de consolidatie informatie te koppelen aan het DSO proces.
+- Een model om de consolidatie informatie te koppelen aan het DSO-LV proces.
 
-Voor al deze componenten geldt dat alleen de DSO view op deze componenten wordt gegeven.
+Voor al deze componenten geldt dat alleen de DSO-LV view op deze componenten wordt gegeven.
 De informatiemodellen worden conform [[MIM]] beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.
 
 <!--

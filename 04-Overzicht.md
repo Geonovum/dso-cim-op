@@ -5,13 +5,13 @@
 
 ## Naam en Acroniemen
 
-CIMOP-dso: Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO.
+CIM-OP: Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO.
 
 ## Informele beschrijving
 
 ### Definitie
 
-Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIMOP-dso).
+Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIM-OP).
 
 **STOP**: Standaard Officiële Publicaties
 
@@ -25,11 +25,11 @@ Een aantal begrippen omvat de definitie van het domein van het Conceptuel Inform
 
 **DSO-LV**: De landelijke voorziening voor het digitaal ondersteunen van de Omgevingswet
 
-CIMOP-dso bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
+CIM-OP bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
 
 ### Beschrijving
 
-CIMOP-dso beschrijft de integratie van de informatie, data, van de Landelijke voorziening Bekendmaking Besluiten (LVBB) en de landelijke voorziening OZON.
+CIM-OP beschrijft de integratie van de informatie, data, van de Landelijke voorziening Bekendmaking Besluiten (LVBB) en de landelijke voorziening DSO-LV.
 
 Voor het beeld van die integratie of beter koppeling is het goed om een beeld van beide voorzieningen te hebben. We maken daarbij gebruik van beschrijvingen zoals ze zijn opgenomen in het DSO architectuur document DSO-LV/LVBB diensteneninformatiestromen per applicatiecluster.
 
@@ -58,24 +58,24 @@ In onderstaand figuur wordt een overzicht gegeven van de infromatie-uitwisseling
 <figcaption>Overzicht informatie-uitwisseling tussen LVBB en DSO-LV (bron: OGAS)</figcaption>
 </figure>
 
-Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIMOP-dso beschrijft die combinatie en afhankelijkheid vanuit het perspectief van het DSO. Deze wordt in dit document de view van DSO op STOP genoemd.
+Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.
 
-Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIMOP-dso en CIMOW.
+Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM-OP en CIMOW.
 
 <figure id="Figuur_4">
-<img src="media/DSO-IMOW-IMOP-standaardkoppelingen-Standaarden en samenhang.png" alt="">
-<figcaption>Relatie tussen kern-objecttypen uit CIMOP en CIMOW</figcaption>
+<img src="media/CIMOP-CIMOW koppeling.png" alt="">
+<figcaption>Relatie tussen kern-objecttypen uit CIM-OP en CIM-OW</figcaption>
 </figure>
 
-#### Use-cases voor CIMOP-dso
+#### Use-cases voor CIM-OP
 
-Het CIMOP-dso heeft als algemene use case (gebruikstoepassing) om informatiekundige relaties te leggen tussen functionaliteiten in DSO en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIMOP-dso beantwoord moeten worden.
+Het CIM-OP heeft als algemene use case (gebruikstoepassing) om informatiekundige relaties te leggen tussen functionaliteiten in de DSO-LV en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIM-OP beantwoord moeten worden.
 
 - Ideeënontwikkeling voor de samenhang en afstemming tussen STOP en IMOW.
 - Ideeënontwikkeling voor de IMOW gerichte functionaliteit in OZON inclusief bevragings- en presentatiefunctionaliteit gerelateerd aan STOP.
 
-Voorbeeld van een aantal specifieke situaties waar de CIMOP-dso informatietechnisch kan ondersteunen:
-- Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten in het CIMOP 
+Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch kan ondersteunen:
+- Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het IMOW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP 
 - Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.
 - Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde IMOW objecten DSO-LV.
 - De relatie tussen IMOW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).
@@ -86,7 +86,7 @@ Voorbeeld van een aantal specifieke situaties waar de CIMOP-dso informatietechni
 
 ## Normatieve referenties
 
-CIMOP-dso verwijst normatief naar een aantal standaarden.
+CIM-OP verwijst normatief naar een aantal standaarden.
 
  - Basisgeometrie
  - Conceptueel Informatiemodel Omgevingswet (CIMOW)
@@ -111,7 +111,7 @@ OPMERKING Geo-informatie is synoniem aan geografische informatie
 
 ## Symbolen en afkortingen
 
-- **CIMOP** Conceptueel Informatiemodel Officiële Publicaties
+- **CIM-OP** Conceptueel Informatiemodel Officiële Publicaties
 - **CIMOW** Conceptueel Informatiemodel Omgevingswet
 - **DSO** Digitaal Stelsel Omgevingswet
 - **DSO-LV** Digitaal Stelsel Omgevingswet - Landelijke Voorziening
