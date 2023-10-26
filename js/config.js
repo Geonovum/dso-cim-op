@@ -68,6 +68,14 @@ let respecConfig = {
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
   localBiblio: 
   {
+    Basisgeometrie: {
+      id: "Basisgeometrie",
+      title: "Basisgeometrie",
+      href: "https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/",
+      status: "Definitief",
+      publisher: "Geonovum",
+      date: "30 september 2020"
+    },
     MIM: {
       id: "MIM",
       title: "MIM - Metamodel Informatie Modellering",
@@ -76,13 +84,29 @@ let respecConfig = {
       publisher: "Geonovum",
       date: "2022-02-17"
     },
-    "NEN3610": {
-      id: "NEN 3610:2011 nl",
-      title: "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
-      href: "https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen",
+    CIMOW: {
+      id: "CIMOW",
+      title: "Conceptueel Informatiemodel Omgevingswet (CIMOW)",
+      href: "https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf",
       status: "Definitief",
-      publisher: "NEN",
-      date: "2011-03-01"
+      publisher: "Geonovum",
+      date: "2022-01-07"
+    },
+    IMOW: {
+      id: "IMOW",
+      title: "Informatiemodel Omgevingswet (IMOW)",
+      href: "https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf",
+      status: "Definitief",
+      publisher: "Geonovum",
+      date: "2023-01-09"
+    },
+    STOP20: {
+      id: "STOP20",
+      title: "Standaard Officiële Publicaties",
+      href: "https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html",
+      status: "Release Candidate",
+      publisher: "KOOP",
+      date: "2023-02-17"
     },
   },
 };

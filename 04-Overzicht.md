@@ -88,10 +88,11 @@ Voorbeeld van een aantal specifieke situaties waar de CIMOP-dso informatietechni
 
 CIMOP-dso verwijst normatief naar een aantal standaarden.
 
- - Basisgeometrie
- - Conceptueel Informatiemodel Omgevingswet (CIMOW)
- - Informatiemodel Omgevingswet (IMOW)
- - Standaard Officiële Publicaties (STOP)
+ - MIM - Metamodel Informatie Modellering [[MIM]].
+ - Basisgeometrie [[Basisgeometrie]].
+ - Conceptueel Informatiemodel Omgevingswet [[CIMOW]].
+ - Informatiemodel Omgevingswet [[IMOW]].
+ - Standaard Officiële Publicaties [[STOP20]].
 
 ## Termen en definities
 
