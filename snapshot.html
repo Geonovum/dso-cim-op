@@ -270,6 +270,14 @@ img.license{float:left;padding-right:5px}
     }
   },
   "localBiblio": {
+    "Basisgeometrie": {
+      "id": "Basisgeometrie",
+      "title": "Basisgeometrie",
+      "href": "https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "30 september 2020"
+    },
     "MIM": {
       "id": "MIM",
       "title": "MIM - Metamodel Informatie Modellering",
@@ -278,13 +286,29 @@ img.license{float:left;padding-right:5px}
       "publisher": "Geonovum",
       "date": "2022-02-17"
     },
-    "NEN3610": {
-      "id": "NEN 3610:2011 nl",
-      "title": "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
-      "href": "https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen",
+    "CIMOW": {
+      "id": "CIMOW",
+      "title": "Conceptueel Informatiemodel Omgevingswet (CIMOW)",
+      "href": "https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf",
       "status": "Definitief",
-      "publisher": "NEN",
-      "date": "2011-03-01"
+      "publisher": "Geonovum",
+      "date": "2022-01-07"
+    },
+    "IMOW": {
+      "id": "IMOW",
+      "title": "Informatiemodel Omgevingswet (IMOW)",
+      "href": "https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "2023-01-09"
+    },
+    "STOP20": {
+      "id": "STOP20",
+      "title": "Standaard Officiële Publicaties",
+      "href": "https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html",
+      "status": "Release Candidate",
+      "publisher": "KOOP",
+      "date": "2023-02-17"
     }
   },
   "title": "Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO",
@@ -396,8 +420,29 @@ DSO. Er is een reeks van deze modellen:</p>
 <p>CIMOP-dso volgt de regels voor opstellen van een informatiemodel zoals vastgelegd in de MIM standaard en wordt uitgedrukt in UML.</p>
 </section>
   <section id="inleiding"><div class="header-wrapper"><h2 id="x2-inleiding"><bdi class="secno">2. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 2."></a></div>
-<p>In het Digitaal Stelsel Omgevingswet wordt als serviceproduct de tekstuele en ruimtelijke informatie van omgevingsdocumenten ontsloten. Dit serviceproduct is datagericht en legt de focus op de geannoteerde informatie. De informatie waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een digitale omgeving. De locatie of <a data-link-type="dfn|abstract-op" class="respec-offending-element" title="Linking error: not matching `<dfn>`" id="respec-offender-linking-error-not-matching-dfn">geo-informatie</a> is voor het DSO de basis voor het weergeven en bevraagbaar maken van een omgevingsdocument. De compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de volledige informatie. Voor de tekst en de juridische informaties ligt de focus bij de Standaard Officiële Publicaties (STOP); deze standaard wordt beheerd door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard Informatiemodel Omgevingsdocumenten (IMOW), beheerd door Geonovum.</p>
-<p>Vanuit het perspectief van het DSO is er een view nodig op STOP waarbij het STOP model gedefinieerd wordt vanuit de functionaliteit die voor het DSO nodig is. Deze view wordt gespecificeerd met dit Conceptueel Informatiemodel Officiële Publicaties-dso (CIMOP-dso). Het CIMOP-dso is een UML informatiemodel dat op conceptueel niveau STOP in relatie brengt tot het IMOW en de toepassing daarvan in het DSO. Alle voor het DSO benodigde en in STOP aanwezige semantiek en functionaliteit is in het CIMOP-dso beschreven. CIMOP-dso is conceptueel in de zin dat het alleen op conceptueel niveau de informatie beschrijft en geen implementatiespecificatie is. Het staat wat dat betreft naast en los van de in het DSO opgenomen implementatiespecificaties.</p>
+<p>In het Digitaal Stelsel Omgevingswet wordt als serviceproduct de tekstuele en
+ruimtelijke informatie van omgevingsdocumenten ontsloten. Dit serviceproduct is
+datagericht en legt de focus op de geannoteerde informatie. De informatie
+waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een
+digitale omgeving. De locatie of <a data-link-type="dfn|abstract-op" class="respec-offending-element" title="Linking error: not matching `<dfn>`" id="respec-offender-linking-error-not-matching-dfn">geo-informatie</a> is voor het DSO de basis
+voor het weergeven en bevraagbaar maken van een omgevingsdocument. De
+compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd
+als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt
+weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de
+volledige informatie. Voor de tekst en de juridische informaties ligt de focus
+bij de Standaard Officiële Publicaties (STOP) [<cite><a class="bibref" data-link-type="biblio" href="#bib-stop20" title="Standaard Officiële Publicaties">STOP20</a></cite>]; deze standaard wordt beheerd
+door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard
+Informatiemodel Omgevingsdocumenten (IMOW) [<cite><a class="bibref" data-link-type="biblio" href="#bib-imow" title="Informatiemodel Omgevingswet (IMOW)">IMOW</a></cite>], beheerd door Geonovum.</p>
+<p>Vanuit het perspectief van het DSO is er een view nodig op STOP waarbij het
+STOP model gedefinieerd wordt vanuit de functionaliteit die voor het DSO nodig
+is. Deze view wordt gespecificeerd met dit Conceptueel Informatiemodel
+Officiële Publicaties-dso (CIMOP-dso). Het CIMOP-dso is een UML informatiemodel
+dat op conceptueel niveau STOP in relatie brengt tot het IMOW en de toepassing
+daarvan in het DSO. Alle voor het DSO benodigde en in STOP aanwezige semantiek
+en functionaliteit is in het CIMOP-dso beschreven. CIMOP-dso is conceptueel in
+de zin dat het alleen op conceptueel niveau de informatie beschrijft en geen
+implementatiespecificatie is. Het staat wat dat betreft naast en los van de in
+het DSO opgenomen implementatiespecificaties.</p>
 </section>
   <section id="toepassingsgebied"><div class="header-wrapper"><h2 id="x3-toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</h2><a class="self-link" href="#toepassingsgebied" aria-label="Permalink for Section 3."></a></div>
 <p>Het inhoudelijke toepassingsgebied is de view van het DSO op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in het DSO.</p>
@@ -475,10 +520,11 @@ De informatiemodellen worden conform [<cite><a class="bibref" data-link-type="bi
 </section></section></section><section id="normatieve-referenties"><div class="header-wrapper"><h3 id="x4-3-normatieve-referenties"><bdi class="secno">4.3 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Section 4.3"></a></div>
 <p>CIMOP-dso verwijst normatief naar een aantal standaarden.</p>
 <ul>
-<li>Basisgeometrie</li>
-<li>Conceptueel Informatiemodel Omgevingswet (CIMOW)</li>
-<li>Informatiemodel Omgevingswet (IMOW)</li>
-<li>Standaard Officiële Publicaties (STOP)</li>
+<li>MIM - Metamodel Informatie Modellering [<cite><a class="bibref" data-link-type="biblio" href="#bib-mim" title="MIM - Metamodel Informatie Modellering">MIM</a></cite>].</li>
+<li>Basisgeometrie [<cite><a class="bibref" data-link-type="biblio" href="#bib-basisgeometrie" title="Basisgeometrie">Basisgeometrie</a></cite>].</li>
+<li>Conceptueel Informatiemodel Omgevingswet [<cite><a class="bibref" data-link-type="biblio" href="#bib-cimow" title="Conceptueel Informatiemodel Omgevingswet (CIMOW)">CIMOW</a></cite>].</li>
+<li>Informatiemodel Omgevingswet [<cite><a class="bibref" data-link-type="biblio" href="#bib-imow" title="Informatiemodel Omgevingswet (IMOW)">IMOW</a></cite>].</li>
+<li>Standaard Officiële Publicaties [<cite><a class="bibref" data-link-type="biblio" href="#bib-stop20" title="Standaard Officiële Publicaties">STOP20</a></cite>].</li>
 </ul>
 </section><section id="termen-en-definities"><div class="header-wrapper"><h3 id="x4-4-termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</h3><a class="self-link" href="#termen-en-definities" aria-label="Permalink for Section 4.4"></a></div>
 <p>Lijst van termen en definities die in deze beschrijving worden gehanteerd.</p>
@@ -1754,8 +1800,16 @@ Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van i
 
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-referenties"><bdi class="secno">A. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informatieve-referenties">
     <div class="header-wrapper"><h3 id="a-1-informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix A.1"></a></div>
-    <dl class="bibliography"><dt id="bib-mim">[MIM]</dt><dd>
+    <dl class="bibliography"><dt id="bib-basisgeometrie">[Basisgeometrie]</dt><dd>
+      <a href="https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/"><cite>Basisgeometrie</cite></a>.  Geonovum. 30 september 2020. Definitief. URL: <a href="https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/">https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/</a>
+    </dd><dt id="bib-cimow">[CIMOW]</dt><dd>
+      <a href="https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf"><cite>Conceptueel Informatiemodel Omgevingswet (CIMOW)</cite></a>.  Geonovum. 2022-01-07. Definitief. URL: <a href="https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf">https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf</a>
+    </dd><dt id="bib-imow">[IMOW]</dt><dd>
+      <a href="https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf"><cite>Informatiemodel Omgevingswet (IMOW)</cite></a>.  Geonovum. 2023-01-09. Definitief. URL: <a href="https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf">https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf</a>
+    </dd><dt id="bib-mim">[MIM]</dt><dd>
       <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/"><cite>MIM - Metamodel Informatie Modellering</cite></a>.  Geonovum. 2022-02-17. Definitief. URL: <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/">https://docs.geostandaarden.nl/mim/def-st-mim-20220217/</a>
+    </dd><dt id="bib-stop20">[STOP20]</dt><dd>
+      <a href="https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html"><cite>Standaard Officiële Publicaties</cite></a>.  KOOP. 2023-02-17. Release Candidate. URL: <a href="https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html">https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html</a>
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
