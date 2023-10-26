@@ -34,7 +34,12 @@ let respecConfig = {
   editors:
     [
       {
-        name: "TPOD team",
+        name: "Paul Janssen",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
+      },
+      {
+        name: "Wilko Quak",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -44,7 +49,7 @@ let respecConfig = {
   authors:
     [
       {
-        name: "TPOD team",
+        name: "Paul Janssen",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -55,7 +60,29 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "template.pdf",
+          uri: "dso-cim-op.pdf",
       },
   ],
+
+  //-- localBiblio: lokale bibliografie, voor verwijzigingen
+  //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
+  localBiblio: 
+  {
+    MIM: {
+      id: "MIM",
+      title: "MIM - Metamodel Informatie Modellering",
+      href: "https://docs.geostandaarden.nl/mim/def-st-mim-20220217/",
+      status: "Definitief",
+      publisher: "Geonovum",
+      date: "2022-02-17"
+    },
+    "NEN3610": {
+      id: "NEN 3610:2011 nl",
+      title: "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+      href: "https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen",
+      status: "Definitief",
+      publisher: "NEN",
+      date: "2011-03-01"
+    },
+  },
 };
