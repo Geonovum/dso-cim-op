@@ -21,6 +21,10 @@ Een aantal begrippen omvat de definitie van het domein van het Conceptuel Inform
 
 **DSO**: Digitaal Stelsel Omgevingswet
 
+**LVBB**: De landelijke voorziening voor het bekendmaken en beschikbaar stellen van besluiten (officiele publicaties)
+
+**DSO-LV**: De landelijke voorziening voor het digitaal ondersteunen van de Omgevingswet
+
 CIMOP-dso bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
 
 ### Beschrijving
