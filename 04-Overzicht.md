@@ -60,7 +60,7 @@ In onderstaand figuur wordt een overzicht gegeven van de infromatie-uitwisseling
 
 Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.
 
-Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM-OP en CIMOW.
+Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM-OP en CIM-OW.
 
 <figure id="Figuur_4">
 <img src="media/CIMOP-CIMOW koppeling.png" alt="">
