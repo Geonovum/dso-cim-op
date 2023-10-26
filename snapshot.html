@@ -270,13 +270,21 @@ img.license{float:left;padding-right:5px}
     }
   },
   "localBiblio": {
-    "SemVer": {
-      "href": "https://semver.org",
-      "title": "Semantic Versioning 2.0.0",
-      "authors": [
-        "T. Preston-Werner"
-      ],
-      "date": "June 2013"
+    "MIM": {
+      "id": "MIM",
+      "title": "MIM - Metamodel Informatie Modellering",
+      "href": "https://docs.geostandaarden.nl/mim/def-st-mim-20220217/",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "2022-02-17"
+    },
+    "NEN3610": {
+      "id": "NEN 3610:2011 nl",
+      "title": "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+      "href": "https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen",
+      "status": "Definitief",
+      "publisher": "NEN",
+      "date": "2011-03-01"
     }
   },
   "title": "Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO",
@@ -287,14 +295,19 @@ img.license{float:left;padding-right:5px}
   "shortName": "dso-cim-op",
   "editors": [
     {
-      "name": "TPOD team",
+      "name": "Paul Janssen",
+      "company": "Geonovum",
+      "companyURL": "https://www.geonovum.nl"
+    },
+    {
+      "name": "Wilko Quak",
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl"
     }
   ],
   "authors": [
     {
-      "name": "TPOD team",
+      "name": "Paul Janssen",
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl"
     }
@@ -303,7 +316,7 @@ img.license{float:left;padding-right:5px}
   "alternateFormats": [
     {
       "label": "pdf",
-      "uri": "template.pdf"
+      "uri": "dso-cim-op.pdf"
     }
   ]
 }</script>
@@ -327,13 +340,15 @@ img.license{float:left;padding-right:5px}
       
       
       
-      <dt>Redacteur:</dt>
+      <dt>Redacteurs:</dt>
       <dd class="editor p-author h-card vcard">
-    <span class="p-name fn">TPOD team</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
+    <span class="p-name fn">Paul Janssen</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
+  </dd><dd class="editor p-author h-card vcard">
+    <span class="p-name fn">Wilko Quak</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
   </dd>
       
       <dt>Auteur:</dt><dd class="editor p-author h-card vcard">
-    <span class="p-name fn">TPOD team</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
+    <span class="p-name fn">Paul Janssen</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
   </dd>
       <dt>Doe mee:</dt><dd>
     <a href="https://github.com/Geonovum/dso-cim-op/">GitHub Geonovum/dso-cim-op</a>
@@ -349,7 +364,7 @@ img.license{float:left;padding-right:5px}
     
     <p>
           Dit document is ook beschikbaar in dit niet-normatieve formaat:
-          <a rel="alternate" href="template.pdf">pdf</a>
+          <a rel="alternate" href="dso-cim-op.pdf">pdf</a>
         </p>
     <p class="copyright">
           Dit document valt onder de volgende licentie: 
@@ -395,7 +410,7 @@ DSO. Er is een reeks van deze modellen:</p>
 <li>Een model om de consolidatie informatie te koppelen aan het DSO proces.</li>
 </ul>
 <p>Voor al deze componenten geldt dat alleen de DSO view op deze componenten wordt gegeven.
-De informatiemodellen worden conform [<cite><a class="bibref respec-offending-element" data-link-type="biblio" href="#bib-mim" title="Reference &quot;[MIM]&quot; not found." id="respec-offender-reference-mim-not-found">MIM</a></cite>] beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.</p>
+De informatiemodellen worden conform [<cite><a class="bibref" data-link-type="biblio" href="#bib-mim" title="MIM - Metamodel Informatie Modellering">MIM</a></cite>] beschreven en zijn opgesteld in UML. Er is geen objectcatalogus opgenomen. Voor de definities van informatielementen wordt verwezen naar de STOP documentatie.</p>
 </section>
   <section id="overzicht"><div class="header-wrapper"><h2 id="x4-overzicht"><bdi class="secno">4. </bdi>Overzicht</h2><a class="self-link" href="#overzicht" aria-label="Permalink for Section 4."></a></div>
 <p><strong>Dit hoofdstuk beschrijft kenmerken van deze Dataspecificatie.</strong></p>
@@ -1740,7 +1755,7 @@ Er is bij dit CIMOP-dso geen objectcatalogus opgenomen. Voor de definities van i
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-referenties"><bdi class="secno">A. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informatieve-referenties">
     <div class="header-wrapper"><h3 id="a-1-informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix A.1"></a></div>
     <dl class="bibliography"><dt id="bib-mim">[MIM]</dt><dd>
-      <em class="respec-offending-element">Reference not found.</em>
+      <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/"><cite>MIM - Metamodel Informatie Modellering</cite></a>.  Geonovum. 2022-02-17. Definitief. URL: <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/">https://docs.geostandaarden.nl/mim/def-st-mim-20220217/</a>
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
