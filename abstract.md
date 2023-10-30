@@ -2,7 +2,7 @@ Dit document bevat de vastlegging en beschrijving van het Conceptuele Informatie
 
 
 Dit is een conceptueel model van het
-DSO. Er is een reeks van deze modellen:
+DSO. Er is een reeks van deze modellen. Onderstaand zijn die weergegeven. De modellen zijn in verschillend stadia van ontwikkeling en de links kunnen zowel naar ontwikkel- als publicatieversies verwijzen.
 
  - [CIM-AM](https://geonovum.github.io/dso-cim-am/): Conceptueel Informatiemodel Aanvragen en Meldingen.
  - [CIM-BHKV](https://geonovum.github.io/dso-cim-bhkv/): Conceptueel Informatiemodel Bronhouderkoppelvlak.

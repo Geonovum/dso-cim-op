@@ -5,13 +5,13 @@
 
 ## Naam en Acroniemen
 
-CIM-OP: Conceptueel Informatiemodel Officiële Publicaties binnen de context van het DSO.
+CIM-OP: Conceptueel Informatiemodel Officiële Publicaties binnen de context van de DSO-LV.
 
 ## Informele beschrijving
 
 ### Definitie
 
-Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties - DSO (CIM-OP).
+Een aantal begrippen omvat de definitie van het domein van het Conceptuel Informatiemodel Officiële Publicaties (CIM-OP).
 
 **STOP**: Standaard Officiële Publicaties
 
@@ -25,13 +25,13 @@ Een aantal begrippen omvat de definitie van het domein van het Conceptuel Inform
 
 **DSO-LV**: De landelijke voorziening voor het digitaal ondersteunen van de Omgevingswet
 
-CIM-OP bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van het DSO.
+CIM-OP bekijkt de informatiekundige inhoud van dit domein in zoverre dat dit in STOP is uitgewerkt en een rol speelt binnen het functioneren van de DSO-LV.
 
 ### Beschrijving
 
 CIM-OP beschrijft de integratie van de informatie, data, van de Landelijke voorziening Bekendmaking Besluiten (LVBB) en de landelijke voorziening DSO-LV.
 
-Voor het beeld van die integratie of beter koppeling is het goed om een beeld van beide voorzieningen te hebben. We maken daarbij gebruik van beschrijvingen zoals ze zijn opgenomen in het DSO architectuur document DSO-LV/LVBB diensteneninformatiestromen per applicatiecluster.
+Voor het beeld van die integratie of beter koppeling is het goed om een beeld van beide voorzieningen te hebben. We maken daarbij gebruik van beschrijvingen zoals ze zijn opgenomen in het DSO architectuur document DSO-LV/LVBB diensten en informatiestromen per applicatiecluster.
 
 **LVBB**
 
@@ -44,21 +44,21 @@ De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van offic
 
 **OZON**
 
-Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuweregelingversies en zorgt voor de benodigde inwinning en validatie van OW-informatie, objectvormingenregistratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverdviaAPI’s die zijn afgestemd op verschillende doelgroepen.
+Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor de benodigde inwinning en validatie van OW-informatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.
 
 <figure id="Figuur_2">
 <img src="media/OZON-architectuur.png" alt="">
 <figcaption>Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: OGAS)</figcaption>
 </figure>
 
-In onderstaand figuur wordt een overzicht gegeven van de infromatie-uitwisseling tussen verschillende componenten inclusief de LVBB en de DSO-LV met OZON.
+In onderstaand figuur wordt een overzicht gegeven van de informatie-uitwisseling tussen verschillende componenten inclusief de LVBB en de DSO-LV met OZON.
 
 <figure id="Figuur_3">
 <img src="media/Informatieuitwisseling LVBB-DSO-LV.png" alt="">
 <figcaption>Overzicht informatie-uitwisseling tussen LVBB en DSO-LV (bron: OGAS)</figcaption>
 </figure>
 
-Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen OZON is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.
+Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundigperspectief en binnen DSO-LV is IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.
 
 Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM-OP en CIM-OW.
 

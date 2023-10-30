@@ -19,6 +19,7 @@ Het model is opgedeeld in een aantal onderdelen:
 - FRBR model als basismodel voor instrumenten `(Context)`
 - Regeling-Besluit met een overzicht op hoofdlijn
 - GIO
+- Documentcomponenten
 - Besluit compact `(Context)`
 - Besluit klassiek `(Context)`
 - Regeling compact
