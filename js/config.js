@@ -100,6 +100,14 @@ let respecConfig = {
       publisher: "Geonovum",
       date: "2023-01-09"
     },
+	OGAS: {
+      id: "OGAS",
+      title: "Overall Globale Architectuur Schets (OGAS) Versie 2.0.1",
+      href: "https://iplo.nl/digitaal-stelsel/documenten/architectuurdocumenten/",
+      status: "Definitief",
+      publisher: "Programma Implementatie Omgevingswet",
+      date: "2020-03-26"
+    },
     STOP20: {
       id: "STOP20",
       title: "Standaard Officiële Publicaties",
