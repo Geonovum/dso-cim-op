@@ -67,10 +67,10 @@ Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM
 
 #### Use-cases voor CIM-OP
 
-Het CIM-OP heeft als algemene use case (gebruikstoepassing) om informatiekundige relaties te leggen tussen functionaliteiten in de DSO-LV en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIM-OP beantwoord moeten worden.
+Het CIM-OP heeft als algemene use case (gebruikstoepassing) het vastleggen van  informatiekundige relaties tussen functionaliteiten in de DSO-LV en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIM-OP beantwoord moeten worden.
 
 - Ideeënontwikkeling voor de samenhang en afstemming tussen STOP en CIM-OW.
-- Ideeënontwikkeling voor de CIM-OW gerichte functionaliteit in Ozon inclusief bevragings- en presentatiefunctionaliteit gerelateerd aan STOP.
+- Ideeënontwikkeling voor de CIM-OW gerichte functionaliteit in DSO-LV inclusief bevragings- en presentatiefunctionaliteit gerelateerd aan STOP.
 
 Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch kan ondersteunen:
 - Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP 
