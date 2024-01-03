@@ -471,10 +471,10 @@ datagericht en legt de focus op de geannoteerde informatie. De informatie
 waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een
 digitale omgeving. De locatie of <a data-link-type="dfn|abstract-op" href="#dfn-geo-informatie" class="internalDFN" id="ref-for-dfn-geo-informatie-1">geo-informatie</a> is voor de DSO-LV de basis
 voor het weergeven en bevraagbaar maken van een omgevingsdocument. De
-compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd
+compleetheid van de informatie van een omgevingsdocument vanuit het perspectief van de opsteller is pas gegarandeerd
 als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt
 weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de
-volledige informatie. Voor de tekst en de juridische informatie ligt de focus
+volledige informatie die de opsteller tracht over te brengen. Voor de tekst en de juridische informatie ligt de focus
 bij de Standaard Officiële Publicaties (STOP) [<cite><a class="bibref" data-link-type="biblio" href="#bib-stop20" title="Standaard Officiële Publicaties">STOP20</a></cite>]; deze standaard wordt beheerd
 door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard
 Informatiemodel Omgevingsdocumenten (IMOW) [<cite><a class="bibref" data-link-type="biblio" href="#bib-imow" title="Informatiemodel Omgevingswet (IMOW)">IMOW</a></cite>], beheerd door Geonovum.</p>
@@ -482,7 +482,7 @@ Informatiemodel Omgevingsdocumenten (IMOW) [<cite><a class="bibref" data-link-ty
 <p>CIM-OP volgt de regels voor opstellen van een informatiemodel zoals vastgelegd in de MIM standaard en wordt uitgedrukt in UML.</p>
 </section></section>
   <section class="normative" id="toepassingsgebied"><div class="header-wrapper"><h2 id="x3-toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</h2><a class="self-link" href="#toepassingsgebied" aria-label="Permalink for Section 3."></a></div>
-<p>Het inhoudelijke toepassingsgebied van CIM-OP is de view van de DSO-LV op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in de DSO-LV.</p>
+<p>Het inhoudelijke toepassingsgebied van CIM-OP is de view van de DSO-LV op de STOP standaard. Het bevat de inhoud van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in de DSO-LV.</p>
 <p>CIM-OP refereert aan STOP 2.0 Release Candidate [<cite><a class="bibref" data-link-type="biblio" href="#bib-stop20" title="Standaard Officiële Publicaties">STOP20</a></cite>].</p>
 <p>CIM-OP bevat de volgende componenten:</p>
 <ul>
@@ -518,7 +518,7 @@ De informatiemodellen worden conform [<cite><a class="bibref" data-link-type="bi
 </figure>
 
 <p><strong>Ozon</strong></p>
-<p>Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor de benodigde inwinning en validatie van OW-informatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.</p>
+<p>Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor validatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.</p>
 <figure id="Figuur_2">
 <img src="media/OZON-architectuur.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_2">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogas" title="Overall Globale Architectuur Schets (OGAS) Versie 2.0.1">OGAS</a></cite>])</span></figcaption>
@@ -545,10 +545,10 @@ De informatiemodellen worden conform [<cite><a class="bibref" data-link-type="bi
 </ul>
 <p>Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch kan ondersteunen:</p>
 <ul>
-<li>Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP </li>
+<li>De relatie tussen CIM-OW objecten en besluiten moet traceerbaar zijn. Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP.</li>
 <li>Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.</li>
 <li>Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde CIM-OW objecten DSO-LV.</li>
-<li>De relatie tussen CIM-OW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).</li>
+<li>(mogelijk via wid van tekstobjecten).</li>
 <li>Consolidatie van CIM-OW objecten moet traceerbaar zijn naar besluiten.</li>
 <li>Relatie tussen regelingversie en CIM-OW object moet traceerbaar zijn.</li>
 <li>...</li>
