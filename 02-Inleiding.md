@@ -52,10 +52,10 @@ datagericht en legt de focus op de geannoteerde informatie. De informatie
 waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een
 digitale omgeving. De locatie of [=geo-informatie=] is voor de DSO-LV de basis
 voor het weergeven en bevraagbaar maken van een omgevingsdocument. De
-compleetheid van de informatie van een omgevingsdocument is pas gegarandeerd
+compleetheid van de informatie van een omgevingsdocument vanuit het perspectief van de opsteller is pas gegarandeerd
 als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt
 weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de
-volledige informatie. Voor de tekst en de juridische informatie ligt de focus
+volledige informatie die de opsteller tracht over te brengen. Voor de tekst en de juridische informatie ligt de focus
 bij de Standaard Officiële Publicaties (STOP) [[STOP20]]; deze standaard wordt beheerd
 door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard
 Informatiemodel Omgevingsdocumenten (IMOW) [[IMOW]], beheerd door Geonovum.

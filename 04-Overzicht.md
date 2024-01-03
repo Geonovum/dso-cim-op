@@ -42,7 +42,7 @@ De landelijke voorzieningen voor het bekendmaken en beschikbaarstellen van offic
 
 **Ozon**
 
-Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor de benodigde inwinning en validatie van OW-informatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.
+Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor validatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.
 
 <figure id="Figuur_2">
 <img src="media/OZON-architectuur.png" alt="">
@@ -73,10 +73,10 @@ Het CIM-OP heeft als algemene use case (gebruikstoepassing) het vastleggen van  
 - Ideeënontwikkeling voor de CIM-OW gerichte functionaliteit in DSO-LV inclusief bevragings- en presentatiefunctionaliteit gerelateerd aan STOP.
 
 Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch kan ondersteunen:
-- Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP 
+- De relatie tussen CIM-OW objecten en besluiten moet traceerbaar zijn. Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP.
 - Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.
 - Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde CIM-OW objecten DSO-LV.
-- De relatie tussen CIM-OW objecten en besluiten moet traceerbaar zijn. (mogelijk via wid van tekstobjecten).
+-  (mogelijk via wid van tekstobjecten).
 - Consolidatie van CIM-OW objecten moet traceerbaar zijn naar besluiten.
 - Relatie tussen regelingversie en CIM-OW object moet traceerbaar zijn.
 - ...

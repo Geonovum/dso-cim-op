@@ -1,7 +1,7 @@
 Toepassingsgebied
 -----------------
 
-Het inhoudelijke toepassingsgebied van CIM-OP is de view van de DSO-LV op de STOP standaard. Het bevat de inhoud in semantiek en functionaliteit van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in de DSO-LV.
+Het inhoudelijke toepassingsgebied van CIM-OP is de view van de DSO-LV op de STOP standaard. Het bevat de inhoud van STOP die van belang is voor een goede informatiekundige specificatie van omgevingsdocumenten in de DSO-LV.
 
 CIM-OP refereert aan STOP 2.0 Release Candidate [[STOP20]].
 
