@@ -86,11 +86,11 @@ Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch
 
 CIM-OP verwijst normatief naar een aantal standaarden.
 
- - MIM - Metamodel Informatie Modellering [[MIM]].
- - Basisgeometrie [[Basisgeometrie]].
- - Conceptueel Informatiemodel Omgevingswet [[CIMOW]].
- - Informatiemodel Omgevingswet [[IMOW]].
- - Standaard Officiële Publicaties [[STOP20]].
+ - MIM - Metamodel Informatie Modellering [[!MIM]].
+ - Basisgeometrie [[!Basisgeometrie]].
+ - Conceptueel Informatiemodel Omgevingswet [[!CIMOW]].
+ - Informatiemodel Omgevingswet [[!IMOW]].
+ - Standaard Officiële Publicaties [[!STOP20]].
 
 ## Termen en definities
 
