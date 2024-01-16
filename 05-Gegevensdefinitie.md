@@ -4,6 +4,7 @@ Uitgangspunten voor modellering
 De volgende uitgangspunten zijn gehanteerd bij het opstellen van CIM-OP:
 
 - Conformiteit met Metamodel voor informatiemodellering, MIM 1.1 [MIM].
+- Model is opgesteld in UML klassediagrammen. Voor algemene uitleg over UML klassediagram zie [wikipedia: UML klassediagram](https://en.wikipedia.org/wiki/Class_diagram).
 - Begrippenkaders van STOP zijn leidend.
 - Het model is conceptueel conform de STOP specificaties, maar kan een andere syntax hebben waar dat voor het begrip van DSO-LV nodig is.
 - De scope van CIM-OP is de informatie die vanuit het DSO-LV perspectief nodig is om van STOP te weten. Dit is ruim genomen om de context van de strikt benodigde STOP informatie te weten. Deze context geeft voor een deel de achtergrond van de van uit de LVBB doorgezette informatie naar de DSO-LV. Tevens is een bredere invulling gegeven omdat voor nu nog niet alle use-cases en functionaliteit bedacht kan worden van de aan de DSO-LV doorgeleverde informatie. Door een bredere scope te nemen ontstaat er een mogelijkheid voor ontdekken van toekomstige gewenste functionaliteit, bijvoorbeeld voor de viewer.
