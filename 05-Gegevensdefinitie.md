@@ -27,12 +27,26 @@ Het model is opgedeeld in een aantal onderdelen:
 - Regeling klassiek
 - Regeling vrijetekststructuur
 - Tijdelijk regelingdeel
-- Kennisgeving
+- Kennisgeving `(Context)`
+- Mededeling `(Context)`
 - Consolidatie `(Context)`
 
 Bij elk model is een korte uitleg opgenomen. In die uitleg is indien relevant ook een referentie naar de STOP documentatie opgenomen.
 
 De modellen zijn conceptueel en geven de DSO-LV view op STOP weer. De informatie-elementen zijn toegepast in metaklassen (o.a. objecttypen, attributen, relaties) die voor deze DSO-LV view handig zijn en niet noodzakelijkerwijze overeenkomen met de metaklassen in STOP. De relaties tussen objecttypen zijn over het algemeen aggregatierelaties met de naam 'bevat'. De associatieeinden hebben in de regel dezelfde naam als het doel of de bron van de relatie. Dit is bijna overal uniform toegepast en komt niet overeen met STOP maar is voor de DSO-LV view voldoende.
+
+Bij een aantal diagrammen is er een legenda opgenomen. Dit is een algemene legenda en het kan zijn dat specifieke legenda-eenheden niet in een specifiek diagram voorkomen. De kleuren hebben geen informatiekundige betekenis in het UML en zijn alleen om het model inzichtelijker te maken. 
+
+<figure id="Figuur_5.1">
+<img src="media/Legenda CIM-OW UML.png" alt="">
+<figcaption>Legenda die bij een aantal diagrammen wordt toegepast.</figcaption>
+</figure>
+
+*CIM-OP*: Regulier onderdeel van CIM-OP\
+*Specifiek deel CIM-OP*: Een onderdeel van CIM-OP dat in dit diagram specifiek aandacht krijgt\
+*Specifiek voor DSO-LV*: Een onderdeel dat door DSO-LV is toegevoegd en niet in STOP voorkomt\
+*CIM-OW*: Een onderdeel van CIM-OW dat van belang is voor dit diagram\
+*Extern model*: Een onderdeel van een extern model dat van belang is voor dit diagram
 
 <aside class="note">
 Er is bij dit CIM-OP geen objectcatalogus opgenomen. Voor de definities van informatieelementen wordt verwezen naar de [[STOP20]] documentatie
