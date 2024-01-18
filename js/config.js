@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Conceptueel Informatiemodel Officiële Publicaties binnen de context van de DSO-LV",
+  title: "Conceptueel Informatiemodel Officiële Publicaties binnen de context van de DSO-LV: versie 1.0 RC",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
  //specStatus: "wv",                   // Werkversie
  // specStatus: "cv",               // Consultatieversie
