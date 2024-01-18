@@ -76,9 +76,8 @@ Voorbeeld van een aantal specifieke situaties waar de CIM-OP informatietechnisch
 - De relatie tussen CIM-OW objecten en besluiten moet traceerbaar zijn. Als een gebruiker vanuit de viewer op de tekst van een artikel klikt is het zinvol om uiteindelijk uit kunnen komen bij de wetstechnische informatie in het LVBB. Hiervoor moet er uit het CIM-OW een koppeling kunnen worden gelegd naar de juiste objecten in het CIM-OP.
 - Als het bevoegd gezag twee besluiten neemt op basis van dezelfde regelingversie is er sprake van samenloop. In dat geval moet het bevoegd gezag los een consolidatie aanleveren. Hoe dit moet, en welke OW-objecten horen daar bij.
 - Het intrekken van een regeling (via een besluit) moet leiden tot het niet meer hebben van gerelateerde CIM-OW objecten DSO-LV.
--  (mogelijk via wid van tekstobjecten).
 - Consolidatie van CIM-OW objecten moet traceerbaar zijn naar besluiten.
-- Relatie tussen regelingversie en CIM-OW object moet traceerbaar zijn.
+- Relatie tussen regelingversie en CIM-OW object moet traceerbaar zijn.(mogelijk via wid van tekstobjecten).
 - ...
 
 
@@ -96,14 +95,7 @@ CIM-OP verwijst normatief naar een aantal standaarden.
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
-<aside class="note">
-Nog invullen of weglaten. Worden er in dit document nieuwe begrippen gedefinieerd?
-</aside>
-
- - <dfn>geo-informatie</dfn>: Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
-van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
-
-OPMERKING Geo-informatie is synoniem aan geografische informatie
+In dit document worden naast een paar modelobjecten specifiek voor de STOP - CIM-OW relatie geen nieuwe termen gedefinieerd die niet in gerefereerde documenten zijn beschreven.
 
 ## Symbolen en afkortingen
 

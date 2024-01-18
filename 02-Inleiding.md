@@ -50,7 +50,7 @@ In het Digitaal Stelsel Omgevingswet wordt als serviceproduct de tekstuele en
 ruimtelijke informatie van omgevingsdocumenten ontsloten. Dit serviceproduct is
 datagericht en legt de focus op de geannoteerde informatie. De informatie
 waarmee een omgevingsdocument bevraagbaar en analyseerbaar wordt gemaakt in een
-digitale omgeving. De locatie of [=geo-informatie=] is voor de DSO-LV de basis
+digitale omgeving. De locatie, of [=geo-informatie=] is voor de DSO-LV de basis
 voor het weergeven en bevraagbaar maken van een omgevingsdocument. De
 compleetheid van de informatie van een omgevingsdocument vanuit het perspectief van de opsteller is pas gegarandeerd
 als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt
