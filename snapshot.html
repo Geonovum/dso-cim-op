@@ -128,7 +128,7 @@ img.license{float:left;padding-right:5px}
     color: white;
     white-space: nowrap;
     z-index: 1;
-    background-color: #045D9F;
+    background-color: #FF0000;
   }
 </style>
 <script type="text/javascript">
@@ -196,6 +196,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Candidate recommendation",
       "vv": "Proposed recommendation",
       "def": "Recommendation",
+      "ld": "Living document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standard",
@@ -212,6 +213,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Consultatieversie",
       "vv": "Versie ter vaststelling",
       "def": "Vastgestelde versie",
+      "ld": "Levend document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standaard",
@@ -231,7 +233,8 @@ img.license{float:left;padding-right:5px}
       "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
       "cv": "Dit is een consultatieversie. Commentaar over dit document kan gestuurd worden naar ",
       "vv": "Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
-      "basis": "Dit is een document zonder officiële status."
+      "basis": "Dit is een document zonder officiële status.",
+      "ld": "Dit is een levend document dat regelmatig gewijzigd wordt."
     },
     "en": {
       "sotd": "Status of this document",
@@ -239,7 +242,8 @@ img.license{float:left;padding-right:5px}
       "wv": "This is a working draft that can be changed, removed or replaced by other documents at any time. It is not a stable document.",
       "cv": "This is a stable draft, published for public comment. Comments regarding this document may be sent to ",
       "vv": "This is the final draft of this document. Edits resulting from consultations have been applied.",
-      "basis": "This document has no official standing."
+      "basis": "This document has no official standing.",
+      "ld": "This is a living document, which is updated regularly."
     }
   },
   "labelColor": {
@@ -247,7 +251,8 @@ img.license{float:left;padding-right:5px}
     "wv": "#FF0000",
     "cv": "#045D9F",
     "vv": "#045D9F",
-    "basis": "#80CC28"
+    "basis": "#80CC28",
+    "ld": "#80CC28"
   },
   "licenses": {
     "cc0": {
@@ -320,14 +325,13 @@ img.license{float:left;padding-right:5px}
     }
   },
   "title": "Conceptueel Informatiemodel Officiële Publicaties binnen de context van de DSO-LV: versie 1.0",
-  "specStatus": "def",
+  "specStatus": "wv",
   "specType": "IM",
   "pubDomain": "dso",
   "licence": "cc-by",
   "shortName": "dso-cim-op",
-  "publishDate": "2024-01-23",
-  "previousPublishDate": "2023-11-09",
-  "previousMaturity": "CV",
+  "previousPublishDate": "2024-01-23",
+  "previousMaturity": "DEF",
   "editors": [
     {
       "name": "Paul Janssen",
@@ -363,21 +367,17 @@ img.license{float:left;padding-right:5px}
     
     <h2>
       Geonovum Informatiemodel<br>
-      Vastgestelde versie
-      <time class="dt-published" datetime="2024-01-23">23 januari 2024</time>
+      Werkversie
+      <time class="dt-published" datetime="2024-06-06">06 juni 2024</time>
     </h2>
     <dl>
-      <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/dso/def-im-dso-cim-op-20240123">https://docs.geostandaarden.nl/dso/def-im-dso-cim-op-20240123</a>
-            </dd>
-      <dt>Laatst gepubliceerde versie:</dt><dd>
-              <a href="https://docs.geostandaarden.nl/dso/dso-cim-op/">https://docs.geostandaarden.nl/dso/dso-cim-op/</a>
-            </dd>
+      
+      
       <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/dso-cim-op/">https://geonovum.github.io/dso-cim-op/</a></dd>
       
       
       
-      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/dso/cv-im-dso-cim-op-20231109">https://docs.geostandaarden.nl/dso/cv-im-dso-cim-op-20231109</a></dd>
+      
       
       <dt>Redacteurs:</dt>
       <dd class="editor p-author h-card vcard">
@@ -424,7 +424,7 @@ img.license{float:left;padding-right:5px}
 </ul>
 <p>CIM-OP volgt de regels voor opstellen van een informatiemodel zoals vastgelegd in de MIM standaard en wordt uitgedrukt in UML.</p>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#algemeen-conceptuele-informatiemodellen-van-het-dso"><bdi class="secno">2.1 </bdi>Algemeen: Conceptuele Informatiemodellen van het DSO</a></li><li class="tocline"><a class="tocxref" href="#cim-op"><bdi class="secno">2.2 </bdi>CIM-OP</a></li></ol></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#naam-en-acroniemen"><bdi class="secno">4.1 </bdi>Naam en Acroniemen</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><bdi class="secno">4.2 </bdi>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie"><bdi class="secno">4.2.1 </bdi>Definitie</a></li><li class="tocline"><a class="tocxref" href="#beschrijving"><bdi class="secno">4.2.2 </bdi>Beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#use-cases-voor-cim-op"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIM-OP</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#normatieve-referenties-0"><bdi class="secno">4.3 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.5 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-voor-modellering"><bdi class="secno">5. </bdi>Uitgangspunten voor modellering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uml-diagrammen-en-objectdefinities"><bdi class="secno">5.1 </bdi>UML diagrammen en objectdefinities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">6. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_packages"><bdi class="secno">6.1 </bdi>Model   CIM-OP</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_A1247576_E36C_4ba6_A161_CDC701845859"><bdi class="secno">6.1.1 </bdi>   CIM-OP - Model officiële publicaties - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_0F7A00A1_FF1C_40f7_9781_3F373A552D1C"><bdi class="secno">6.1.2 </bdi>   FRBRmodel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5C9C1AA3_5E64_45f1_8F1B_8BA16B727767"><bdi class="secno">6.1.3 </bdi>   CIM-OP - Regeling en besluit - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_868054DA_70C4_4698_9CFE_213836F9DE42"><bdi class="secno">6.1.4 </bdi>   GIO - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5489F030_DAE6_4ff1_93CB_C93D4FAA23BF"><bdi class="secno">6.1.5 </bdi>   Document­Componenten - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_C3A78E9F_FD37_4d3f_9FFA_7A6AF3D24492"><bdi class="secno">6.1.6 </bdi>   Besluit compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_4EBF1CC2_389D_44ac_A307_E8B538A224E5"><bdi class="secno">6.1.7 </bdi>   Toelichtingsrelatie - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_BD5AC351_9205_4ae3_9BBA_76954F6AAF9D"><bdi class="secno">6.1.8 </bdi>   Besluit klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_39A143E3_1F82_408f_BACE_5C068A2C68B3"><bdi class="secno">6.1.9 </bdi>   Regeling compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_F94F5E41_71C5_4a69_8078_F0B8BC3C65E8"><bdi class="secno">6.1.10 </bdi>   Regeling klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_A8E7083D_E169_4038_BEEA_D1BD736C568F"><bdi class="secno">6.1.11 </bdi>   Regeling met vrijetekststructuur - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B68BBAB3_5E76_45fe_B950_C55377E82992"><bdi class="secno">6.1.12 </bdi>   Tijdelijk regelingdeel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_7A61B0F8_E885_4bef_83D2_82AFB42CCA55"><bdi class="secno">6.1.13 </bdi>   Kennisgeving - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5BCE9EEB_68FE_4c2b_B0B4_4A8EC9B09263"><bdi class="secno">6.1.14 </bdi>   Mededeling - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B20156B3_4932_454c_9AD0_16DB961D84B3"><bdi class="secno">6.1.15 </bdi>   Consolidatie-informatie - overzicht</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#algemeen-conceptuele-informatiemodellen-van-het-dso"><bdi class="secno">2.1 </bdi>Algemeen: Conceptuele Informatiemodellen van het DSO</a></li><li class="tocline"><a class="tocxref" href="#cim-op"><bdi class="secno">2.2 </bdi>CIM-OP</a></li></ol></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#naam-en-acroniemen"><bdi class="secno">4.1 </bdi>Naam en Acroniemen</a></li><li class="tocline"><a class="tocxref" href="#informele-beschrijving"><bdi class="secno">4.2 </bdi>Informele beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie"><bdi class="secno">4.2.1 </bdi>Definitie</a></li><li class="tocline"><a class="tocxref" href="#beschrijving"><bdi class="secno">4.2.2 </bdi>Beschrijving</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#use-cases-voor-cim-op"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIM-OP</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#normatieve-referenties-0"><bdi class="secno">4.3 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.4 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.5 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-voor-modellering"><bdi class="secno">5. </bdi>Uitgangspunten voor modellering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#uml-diagrammen-en-objectdefinities"><bdi class="secno">5.1 </bdi>UML diagrammen en objectdefinities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">6. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_packages"><bdi class="secno">6.1 </bdi>Model   CIM-OP</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_A1247576_E36C_4ba6_A161_CDC701845859"><bdi class="secno">6.1.1 </bdi>   CIM-OP - Model officiële publicaties - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_0F7A00A1_FF1C_40f7_9781_3F373A552D1C"><bdi class="secno">6.1.2 </bdi>   FRBRmodel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5C9C1AA3_5E64_45f1_8F1B_8BA16B727767"><bdi class="secno">6.1.3 </bdi>   CIM-OP - Regeling en besluit - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_868054DA_70C4_4698_9CFE_213836F9DE42"><bdi class="secno">6.1.4 </bdi>   GIO - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5489F030_DAE6_4ff1_93CB_C93D4FAA23BF"><bdi class="secno">6.1.5 </bdi>   Document­Componenten - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_C3A78E9F_FD37_4d3f_9FFA_7A6AF3D24492"><bdi class="secno">6.1.6 </bdi>   Besluit compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_4EBF1CC2_389D_44ac_A307_E8B538A224E5"><bdi class="secno">6.1.7 </bdi>   Toelichtingsrelatie - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_BD5AC351_9205_4ae3_9BBA_76954F6AAF9D"><bdi class="secno">6.1.8 </bdi>   Besluit klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_39A143E3_1F82_408f_BACE_5C068A2C68B3"><bdi class="secno">6.1.9 </bdi>   Regeling compact - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_F94F5E41_71C5_4a69_8078_F0B8BC3C65E8"><bdi class="secno">6.1.10 </bdi>   Regeling klassiek - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_A8E7083D_E169_4038_BEEA_D1BD736C568F"><bdi class="secno">6.1.11 </bdi>   Regeling met vrijetekststructuur - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B68BBAB3_5E76_45fe_B950_C55377E82992"><bdi class="secno">6.1.12 </bdi>   Tijdelijk regelingdeel - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_7A61B0F8_E885_4bef_83D2_82AFB42CCA55"><bdi class="secno">6.1.13 </bdi>   Kennisgeving - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_5BCE9EEB_68FE_4c2b_B0B4_4A8EC9B09263"><bdi class="secno">6.1.14 </bdi>   Mededeling - overzicht</a></li><li class="tocline"><a class="tocxref" href="#EAID_B20156B3_4932_454c_9AD0_16DB961D84B3"><bdi class="secno">6.1.15 </bdi>   Consolidatie-informatie - overzicht</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
 
   <section id="voorwoord"><div class="header-wrapper"><h2 id="x1-voorwoord"><bdi class="secno">1. </bdi>Voorwoord</h2><a class="self-link" href="#voorwoord" aria-label="Permalink for Section 1."></a></div>
 <p>Dit document is tot stand gekomen binnen het programma DSO-Omgevingswet. Het bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties bekeken vanuit het DSO-LV perspectief. Het bevat in die zin de specificaties van het algemene STOP model die een rol spelen bij de implementatie van STOP in relatie tot CIM-OW in de DSO-LV. Het is daarmee uitdrukkelijk geen vervanging van de beschrijving van STOP zoals die door KOOP wordt beheerd.</p>
@@ -2135,4 +2135,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Informatiemodel - Vastgestelde versie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Informatiemodel - Werkversie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
