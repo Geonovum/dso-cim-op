@@ -11,7 +11,8 @@ let respecConfig = {
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   specType: "IM",                 // Informatie Model
-
+  //-- GW20240906: url naar base.css toegevoegd
+  nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   pubDomain: "dso",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
