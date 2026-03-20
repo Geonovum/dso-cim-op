@@ -42,7 +42,7 @@ De onderstaande conceptuele informatiemodellen zijn beschikbaar. De modellen zij
  - [CIM-SWF](https://geonovum.github.io/dso-cim-swf/): Conceptueel Informatiemodel Samenwerkfuctie.
  - [CIM-TR](https://geonovum.github.io/dso-cim-tr/): Conceptueel Informatiemodel Toepasbare Regels. .
  
-Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De conceptuele informatiemodellen worden derhalve in samenhang beheert en ontwikkelt, teneinde de semantische interoperabiliteit in en met het DSO te kunnen waarborgen.
+Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De conceptuele informatiemodellen worden derhalve in samenhang beheerd en ontwikkeld, teneinde de semantische interoperabiliteit in en met het DSO te kunnen waarborgen.
 Dit document bevat de vastlegging en beschrijving van het Conceptuele Informatiemodel Officiële Publicaties (CIM-OP).
 
 ## CIM-OP
@@ -57,7 +57,7 @@ als ook de bijbehorende inhoud van de artikelen of tekstonderdelen wordt
 weergegeven. Tekst, annotatie en locatie vormen in hun drie-eenheid de
 volledige informatie die de opsteller tracht over te brengen. Voor de tekst en de juridische informatie ligt de focus
 bij de Standaard Officiële Publicaties (STOP) [[STOP20]]; deze standaard wordt beheerd
-door KOOP. Voor annotatie en locatie-gericht bevragen bij de standaard
+door Logius. Voor annotatie en locatie-gericht bevragen bij de standaard
 Informatiemodel Omgevingsdocumenten (IMOW) [[IMOW]], beheerd door Geonovum.
 
 Vanuit het perspectief van het DSO-LV is er een view nodig op STOP waarbij het STOP model gedefinieerd wordt vanuit de functionaliteit die voor de DSO-LV nodig is. Deze view wordt gespecificeerd met dit Conceptueel Informatiemodel Officiële Publicaties (CIM-OP). Het CIM-OP is een UML informatiemodel dat op conceptueel niveau STOP in relatie brengt tot het CIM-OW en de toepassing daarvan in de DSO-LV. Alle voor de DSO-LV benodigde en in STOP aanwezige semantiek en functionaliteit is in het CIM-OP beschreven. CIM-OP is conceptueel in de zin dat het alleen op conceptueel niveau de informatie beschrijft en geen implementatiespecificatie is. Het staat wat dat betreft naast en los van de in het DSO opgenomen implementatiespecificaties.
