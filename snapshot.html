@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.8.0">
+<meta name="generator" content="ReSpec 37.0.0">
 <style>
 .issue-label{text-transform:initial}
 .warning>p:first-child{margin-top:0}
@@ -29,6 +29,7 @@ dfn{cursor:pointer}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
 .dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
 .dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel .marker.cddl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
 .dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
 .dfn-panel a[href]:hover{border-bottom-width:1px}
 .dfn-panel ul{padding:0}
@@ -71,13 +72,17 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+@media (prefers-color-scheme:dark){
+#references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
+}
+body:has(input[name=color-scheme][value=dark]:checked) #references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
 cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 #issue-summary>ul{column-count:2}
-#issue-summary li{list-style:none;display:inline-block}
+#issue-summary li{list-style:none}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
 details.respec-tests-details>*{padding-right:2em}
 details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
@@ -86,7 +91,8 @@ details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
 .self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-.header-wrapper{display:flex;align-items:baseline;position:relative;left:-.5em}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2):has(+a.self-link){position:relative;left:-.5em}
 :is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-.7em;font-size:1rem;opacity:.5}
 :is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
 :is(h2,h3)+a.self-link{top:-.2em}
@@ -97,6 +103,8 @@ dd{margin-left:0}
 @media print{
 .removeOnSave{display:none}
 }
+body:has(input[name=color-scheme][value=light]:checked),head:not(:has(meta[name=color-scheme][content~=dark]))+body{color-scheme:light}
+body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 </style>
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px;background:0 0}
@@ -349,14 +357,14 @@ img.license{float:left;padding-right:5px;background:0 0}
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
-<body class="h-entry informative toc-inline"><div class="head">
+<body class="h-entry informative"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://docs.geostandaarden.nl/media/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Conceptueel Informatiemodel Officiële Publicaties binnen de context van de DSO-LV: versie 1.0</h1>
     
     <h2>
       Geonovum Informatiemodel<br>
       Werkversie
-      <time class="dt-published" datetime="2026-05-18">18 mei 2026</time>
+      <time class="dt-published" datetime="2026-06-17">17 juni 2026</time>
     </h2>
     <dl>
       
@@ -380,7 +388,9 @@ img.license{float:left;padding-right:5px;background:0 0}
       <dt>Doe mee:</dt><dd>
     <a href="https://github.com/Geonovum/dso-cim-op/">GitHub Geonovum/dso-cim-op</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/dso-cim-op/issues/">Dien een melding in</a>
+    <a href="https://github.com/Geonovum/dso-cim-op/issues/">All issues</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/dso-cim-op/issues/new/choose">Dien een melding in</a>
   </dd><dd>
     <a href="https://github.com/Geonovum/dso-cim-op/commits/">Revisiehistorie</a>
   </dd><dd>
@@ -421,24 +431,16 @@ img.license{float:left;padding-right:5px;background:0 0}
 <section id="algemeen-conceptuele-informatiemodellen-van-het-dso"><div class="header-wrapper"><h3 id="x2-1-algemeen-conceptuele-informatiemodellen-van-het-dso"><bdi class="secno">2.1 </bdi>Algemeen: Conceptuele Informatiemodellen van het DSO</h3><a class="self-link" href="#algemeen-conceptuele-informatiemodellen-van-het-dso" aria-label="Permalink for Section 2.1"></a></div>
 <p>In een stelsel van samenhangende voorzieningen, zoals het Digitaal Stelsel Omgevingswet (DSO), is semantische interoperabiliteit essentieel om de verschillende stelselonderdelen in staat te stellen relevante informatie op een betekenisvolle manier met elkaar uit te wisselen. Voor de dienstverlening rondom de Omgevingswet moet altijd duidelijk zijn welke betekenis wordt toegekend aan woorden (begrippenkader) en wat de relatie is tussen begrippen, vanuit de inhoud van die begrippen (semantische relaties). 
 Dit modelleren we in conceptuele informatiemodellen (CIM) die een relatief stabiel raamwerk voor het werken onder architectuur en de basis voor de implementatie biedt.</p>
-<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Noot</span></div><aside class="">
-
-<p><strong>Conceptuele informatiemodellen (CIMs) – Definitie volgens MIM</strong></p>
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Noot</span></div><aside class=""><p><strong>Conceptuele informatiemodellen (CIMs) – Definitie volgens MIM</strong></p>
 <p>Een conceptueel informatiemodel beschrijft de modellering van de werkelijkheid binnen het beschouwde domein door middel van de beschrijving van welke informatie (data met betekenis en structuur) een rol speelt. Een conceptueel informatiemodel is hierbij onafhankelijk van het ontwerp van en de implementatie in systemen. Het geeft een zo getrouw mogelijke beschrijving van die werkelijkheid en is in natuurlijke taal geformuleerd.
 Een dergelijk model definieert het ‘wat’: welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in de beschouwde werkelijkheid. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant. Deze informatie wordt gemodelleerd als informatieobjecten met eigenschappen/kenmerken, oftewel waarvoor data beschikbaar is (of zal zijn) en wordt ondergebracht in een informatiemodel. Dit informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.</p>
 <p>Met conceptueel wordt niet bedoeld abstract of hoog over, de beschrijvingen van de informatie die beschikbaar is zijn heel precies en concreet.</p>
 <p>Een conceptueel informatiemodel wordt opgesteld voor gebruik door mensen, zodat ‘de business’ en de ICT-specialisten elkaar (gaan) begrijpen voor wat betreft de informatie die in het domein wordt geregistreerd en/of kan worden uitgewisseld.</p>
-</aside></div>
-
-
-
-<p>Binnen DSO worden verschillende informatiedomeinen onderkend: elk informatiedomein groepeert informatieobjecten met maximale samenhang en vormt logische bouwblokken voor de informatievoorziening van DSO.<br>De informatiedomeinen zijn de basis voor de indeling van de informatiemodellen. Elk informatiedomein wordt op conceptueel niveau beschreven door een conceptueel informatiemodel (CIM) dat richting geeft aan de uitwerking van het informatiedomein en de samenhang met aanpalende domeinen borgt.</p>
+</aside></div><p>Binnen DSO worden verschillende informatiedomeinen onderkend: elk informatiedomein groepeert informatieobjecten met maximale samenhang en vormt logische bouwblokken voor de informatievoorziening van DSO.<br>De informatiedomeinen zijn de basis voor de indeling van de informatiemodellen. Elk informatiedomein wordt op conceptueel niveau beschreven door een conceptueel informatiemodel (CIM) dat richting geeft aan de uitwerking van het informatiedomein en de samenhang met aanpalende domeinen borgt.</p>
 <figure id="Figuur_0">
 <img src="media/Stelsel van CIMs.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_0">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Samenhang tussen conceptuele informatiemodellen binnnen DSO.</span></figcaption>
-</figure>
-
-<p>De onderstaande conceptuele informatiemodellen zijn beschikbaar. De modellen zijn in verschillende stadia van ontwikkeling en de links kunnen zowel naar ontwikkel- als publicatieversies verwijzen.</p>
+</figure><p>De onderstaande conceptuele informatiemodellen zijn beschikbaar. De modellen zijn in verschillende stadia van ontwikkeling en de links kunnen zowel naar ontwikkel- als publicatieversies verwijzen.</p>
 <ul>
 <li><a href="https://geonovum.github.io/dso-cim-am/">CIM-AM</a>: Conceptueel Informatiemodel Aanvragen en Meldingen.</li>
 <li><a href="https://geonovum.github.io/dso-cim-bhkv/">CIM-BHKV</a>: Conceptueel Informatiemodel Bronhouderkoppelvlak.</li>
@@ -505,29 +507,21 @@ De informatiemodellen worden conform [<cite><a class="bibref" data-link-type="bi
 <figure id="Figuur_1">
 <img src="media/LVBB-architectuur.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_1">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Context applicatiecluster Landelijke voorziening bekendmaken en beschikbaarstellen (LVBB) (bron: [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogas" title="Overall Globale Architectuur Schets (OGAS) Versie 2.0.1">OGAS</a></cite>])</span></figcaption>
-</figure>
-
-<p><strong>Ozon</strong></p>
+</figure><p><strong>Ozon</strong></p>
 <p>Ozon wordt via het bronhouderskoppelvlak voor juridische regels (LVBB) geïnformeerd over nieuwe regelingversies en zorgt voor validatie, objectvorming en registratie. De objecten die ontstaan worden binnen de landelijke objectstructuur ingepast en uitgeleverd via API’s die zijn afgestemd op verschillende doelgroepen.</p>
 <figure id="Figuur_2">
 <img src="media/OZON-architectuur.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_2">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">Context applicatiecluster Objectgerichte Ontsluiting Omgevingsdocumenten (Ozon) (bron: [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogas" title="Overall Globale Architectuur Schets (OGAS) Versie 2.0.1">OGAS</a></cite>])</span></figcaption>
-</figure>
-
-<p>In onderstaand figuur wordt een overzicht gegeven van de informatie-uitwisseling tussen verschillende componenten inclusief de LVBB en de DSO-LV met Ozon.</p>
+</figure><p>In onderstaand figuur wordt een overzicht gegeven van de informatie-uitwisseling tussen verschillende componenten inclusief de LVBB en de DSO-LV met Ozon.</p>
 <figure id="Figuur_3">
 <img src="media/Informatieuitwisseling LVBB-DSO-LV.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_3">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">Overzicht informatie-uitwisseling tussen LVBB en DSO-LV (bron: [<cite><a class="bibref" data-link-type="biblio" href="#bib-ogas" title="Overall Globale Architectuur Schets (OGAS) Versie 2.0.1">OGAS</a></cite>])</span></figcaption>
-</figure>
-
-<p>Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundig perspectief en binnen DSO-LV is CIM-OW en IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.</p>
+</figure><p>Binnen de context van de LVBB beschrijft de STOP standaard het informatiekundig perspectief en binnen DSO-LV is CIM-OW en IMOW de leidende informatiestandaard. Maar voor een effectieve ontsluiting van het dataproduct omgevingsdocument is een gedeeltelijke combinatie van beide en een afhankelijkheid van beide nodig. Het CIM-OP beschrijft die combinatie en afhankelijkheid vanuit het perspectief van de DSO-LV. Deze wordt in dit document de view van DSO-LV op STOP genoemd.</p>
 <p>Onderstaand figuur geeft op hoofdlijn de relatie tussen kern-objecttypen uit CIM-OP en CIM-OW.</p>
 <figure id="Figuur_4">
 <img src="media/CIMOP-CIMOW koppeling.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_4">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Relatie tussen kern-objecttypen uit CIM-OP en CIM-OW</span></figcaption>
-</figure>
-
-<section id="use-cases-voor-cim-op"><div class="header-wrapper"><h5 id="x4-2-2-1-use-cases-voor-cim-op"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIM-OP</h5><a class="self-link" href="#use-cases-voor-cim-op" aria-label="Permalink for Section 4.2.2.1"></a></div>
+</figure><section id="use-cases-voor-cim-op"><div class="header-wrapper"><h5 id="x4-2-2-1-use-cases-voor-cim-op"><bdi class="secno">4.2.2.1 </bdi>Use-cases voor CIM-OP</h5><a class="self-link" href="#use-cases-voor-cim-op" aria-label="Permalink for Section 4.2.2.1"></a></div>
 <p>Het CIM-OP heeft als algemene use case (gebruikstoepassing) het vastleggen van  informatiekundige relaties tussen functionaliteiten in de DSO-LV en de gegevens binnen STOP. Om dit concreter te maken is hier beneden een lijst opgenomen met specifieke use cases of vragen die door CIM-OP beantwoord moeten worden.</p>
 <ul>
 <li>Ideeënontwikkeling voor de samenhang en afstemming tussen STOP en CIM-OW.</li>
@@ -607,9 +601,7 @@ Het model is opgedeeld in een aantal onderdelen:</p>
 <figure id="Figuur_5.1">
 <img src="media/Legenda CIM-OW UML.png" alt="">
 <figcaption><a class="self-link" href="#Figuur_5.1">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Legenda die bij een aantal diagrammen wordt toegepast.</span></figcaption>
-</figure>
-
-<p><em>CIM-OP</em>: Regulier onderdeel van CIM-OP<br><em>Specifiek deel CIM-OP</em>: Een onderdeel van CIM-OP dat in dit diagram specifiek aandacht krijgt<br><em>Specifiek voor DSO-LV</em>: Een onderdeel dat door DSO-LV is toegevoegd en niet in STOP voorkomt<br><em>CIM-OW</em>: Een onderdeel van CIM-OW dat van belang is voor dit diagram<br><em>Extern model</em>: Een onderdeel van een extern model dat van belang is voor dit diagram</p>
+</figure><p><em>CIM-OP</em>: Regulier onderdeel van CIM-OP<br><em>Specifiek deel CIM-OP</em>: Een onderdeel van CIM-OP dat in dit diagram specifiek aandacht krijgt<br><em>Specifiek voor DSO-LV</em>: Een onderdeel dat door DSO-LV is toegevoegd en niet in STOP voorkomt<br><em>CIM-OW</em>: Een onderdeel van CIM-OW dat van belang is voor dit diagram<br><em>Extern model</em>: Een onderdeel van een extern model dat van belang is voor dit diagram</p>
 <div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Noot</span></div><aside class="">
 Er is bij dit CIM-OP geen objectcatalogus opgenomen. Voor de definities van informatieelementen wordt verwezen naar de [<cite><a class="bibref" data-link-type="biblio" href="#bib-stop20" title="Standaard Officiële Publicaties">STOP20</a></cite>] documentatie
 </aside></div></section></section>
@@ -1916,8 +1908,11 @@ function setupPanel() {
 }
 
 function panelListener() {
-  /** @type {HTMLElement} */
+  /** @type {HTMLElement | null} */
   let panel = null;
+  /**
+   * @param {KeyboardEvent|MouseEvent} event
+   */
   return event => {
     const { target, type } = event;
 
@@ -1925,24 +1920,34 @@ function panelListener() {
 
     // For keys, we only care about Enter key to activate the panel
     // otherwise it's activated via a click.
-    if (type === "keydown" && event.key !== "Enter") return;
+    if (
+      type === "keydown" &&
+      /** @type {KeyboardEvent} */ (event).key !== "Enter"
+    )
+      return;
 
     const action = deriveAction(event);
 
     switch (action) {
       case "show": {
         hidePanel(panel);
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const dfn = target.closest("dfn, .index-term");
+        if (!dfn?.id) break;
         panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
-        const coords = deriveCoordinates(event);
+        if (!panel) break;
+        const coords = deriveCoordinates(
+          /** @type {MouseEvent|KeyboardEvent} */ (event)
+        );
         displayPanel(dfn, panel, coords);
         break;
       }
       case "dock": {
-        panel.style.left = null;
-        panel.style.top = null;
-        panel.classList.add("docked");
+        if (panel) {
+          panel.style.left = "";
+          panel.style.top = "";
+          panel.classList.add("docked");
+        }
         break;
       }
       case "hide": {
@@ -1993,7 +1998,8 @@ function deriveAction(event) {
     if (hitALink) {
       return target.classList.contains("self-link") ? "hide" : "dock";
     }
-    const panel = target.closest(".dfn-panel");
+
+    const panel = /** @type {HTMLElement} */ (target.closest(".dfn-panel"));
     return panel.classList.contains("docked") ? "hide" : "none";
   }
   if (document.querySelector(".dfn-panel:not([hidden])")) {
@@ -2037,9 +2043,9 @@ function displayPanel(dfn, panel, { x, y }) {
     const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
     const newCaretOffset = left - newLeft;
     panel.style.left = `${newLeft}px`;
-    /** @type {HTMLElement} */
+    /** @type {HTMLElement | null} */
     const caret = panel.querySelector(".caret");
-    caret.style.left = `${newCaretOffset}px`;
+    if (caret) caret.style.left = `${newCaretOffset}px`;
   }
 
   // As it's a dialog, we trap focus.
@@ -2088,6 +2094,9 @@ function trapFocus(panel, dfn) {
 function createTrapListener(anchors, panel, dfn) {
   const lastIndex = anchors.length - 1;
   let currentIndex = 0;
+  /**
+   * @param {KeyboardEvent} event
+   */
   return event => {
     switch (event.key) {
       // Hitting "Tab" traps us in a nice loop around elements.
@@ -2117,7 +2126,7 @@ function createTrapListener(anchors, panel, dfn) {
   };
 }
 
-/** @param {HTMLElement} panel */
+/** @param {HTMLElement | null} panel */
 function hidePanel(panel) {
   if (!panel) return;
   panel.hidden = true;
